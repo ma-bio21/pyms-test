@@ -1,0 +1,14 @@
+pyms-test/examples/ANDI-MS/README
+
+SUMMARY
+-------
+
+This directory contains examples for reading ANDI-MS (NetCDF) files.
+
+CONTENT
+-------
+
+README -- This file.
+ChemStation/ -- An example for reading Agilent ChemStation ANDI-MS
+    file.
+

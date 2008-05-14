@@ -1,0 +1,16 @@
+pyms-test/README
+
+Summary
+-------
+
+This project contains examples and tests for PyMS.
+
+Content
+-------
+
+README -- This file.
+
+examples/ -- PyMS examples.
+
+tests/ -- PyMS tests.
+

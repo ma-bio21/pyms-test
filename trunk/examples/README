@@ -1,0 +1,14 @@
+pyms-test/examples/README
+
+SUMMARY
+-------
+
+This directory contains examples of PyMS use.
+
+CONTENT
+-------
+
+README -- This file.
+
+ANDI-MS/ -- Examples for reading ANDI-MS (NetCDF) files.
+
