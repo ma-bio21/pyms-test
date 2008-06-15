@@ -1,0 +1,11 @@
+pyms-test/examples/ANDI-MS/ChemStation/README
+
+SUMMARY
+-------
+
+Shows reading of data from NetCDF files exported from
+Agilent ChemStation.
+
+EXPLANATIONS
+------------
+
