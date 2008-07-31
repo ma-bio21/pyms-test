@@ -4,8 +4,8 @@
 import sys
 sys.path.append("/home/current/proj/PyMS/")
 
-from pyms.IO.ANDI.Class import ChemStation 
-from pyms.Utils.IO import save_data 
+from pyms.IO.ANDI.Class import ChemStation
+from pyms.Utils.IO import save_data
 
 andi_file = "/home/current/proj/PyMS/pyms-data/0510_217.CDF"
 

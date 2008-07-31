@@ -5,7 +5,7 @@ PROC_OUT="proc.py.out" # output of the proc.py script
 OUTPUT_DIR="output" # the directory with other output files
 
 # - do not modify below -
-echo -ne "\n Hello (from cleanup.sh)\n"
+echo -ne "\n Hello from cleanup.sh\n"
 
 if [ -e $PROC_OUT ]; then
   echo -ne " -> Removing $PROC_OUT\n"
