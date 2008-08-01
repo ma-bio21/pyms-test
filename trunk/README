@@ -1,14 +1,11 @@
 pyms-test/README
 
-Summary
--------
+SUMMARY
 
 This project contains examples and tests for PyMS.
 
-Content
--------
+EXPLANATIONS
 
-README -- This file.
-
-examples/ -- PyMS examples.
+example01 -- Demonstrates reading of a data from NetCDF files exported
+from Agilent ChemStation.
 
