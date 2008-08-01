@@ -11,3 +11,5 @@ example01/ -- Demonstrates reading of a data from NetCDF files exported
 
 example02/ -- Demonstrates some data methods and attributes
 
+example03/ -- How to write data to external files
+
