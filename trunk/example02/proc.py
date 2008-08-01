@@ -15,15 +15,15 @@ print data.get_filename()
 
 # get the first ion chromatogram in the file
 ic = data.get_ic_at_index(1)
-print ic._mass
+print ic.is_tic()
 
 # get TIC
 tic = data.get_tic()
-print tic._mass
+print tic.is_tic()
 
 # get the ion chromatogram for m/z = 73
 ic = data.get_ic_at_mass(73)
-print ic._mass
+print ic.is_tic()
 
 # get the entire intensity matrix
 im = data.get_intensity_matrix()
