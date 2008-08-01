@@ -6,6 +6,8 @@ This project contains examples and tests for PyMS.
 
 EXPLANATIONS
 
-example01 -- Demonstrates reading of a data from NetCDF files exported
-from Agilent ChemStation.
+example01/ -- Demonstrates reading of a data from NetCDF files exported
+    from Agilent ChemStation.
+
+example02/ -- Demonstrates some data methods and attributes
 
