@@ -6,10 +6,10 @@ Examples using pyms.IO functions
 
 CONTENT
 
-example01/ -- Demonstrates reading of a data from NetCDF files exported
+01/ -- Demonstrates reading of a data from NetCDF files exported
     from Agilent ChemStation.
 
-example02/ -- Demonstrates some data methods and attributes
+02/ -- Demonstrates some data methods and attributes
 
-example03/ -- Shows how to write data to external files
+03/ -- Shows how to write data to external files
 

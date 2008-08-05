@@ -1,4 +1,4 @@
 
-example01/ -- Demonstrates reading of a data from NetCDF files exported
+01/ -- Demonstrates reading of a data from NetCDF files exported
     from Agilent ChemStation.
 
