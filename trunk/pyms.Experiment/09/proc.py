@@ -6,8 +6,8 @@ sys.path.append("/home/current/proj/PyMS/")
 
 from pyms.IO.ANDI.Class import ChemStation
 from pyms.Experiment.Class import Experiment
-
 from pyms.Peak.List.IO import read_chem_station_peaks
+from pyms.Experiment.IO import dump_expr
 
 # path to ANDI-MS data file
 andi_file = "/home/current/proj/PyMS/pyms-data/a0806_140.CDF"
@@ -30,5 +30,9 @@ for peak in peaks:
 expr = Experiment("a0806_140", peaks)
 expr.set_ref_peak("si")
 expr.remove_blank_peaks()
-expr.normalise_peaks()
+expr.raw2norm_area()
+expr.purge_peaks()
+expr.sele_rt_range(["6.5m", "21m"])
+
+dump_expr(expr, "output/" + expr.expr_code + ".pickle")
 
