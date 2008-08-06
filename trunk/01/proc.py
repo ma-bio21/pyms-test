@@ -25,11 +25,12 @@ ic = andi_data.get_ic_at_index(1)
 ic = andi_data.get_ic_at_mass(73)
 
 # some tests on ion chromatogram objects
-print "'tic' is a TIC", tic.is_tic()
+print "'tic' is a TIC:", tic.is_tic()
 print "'ic' is a TIC:",ic.is_tic()
 
-# save TIC to a file
-ic.write("output/tic.dat")
+# save ion chromatograms to a file
+tic.write("output/tic.dat")
+ic.write("output/ic.dat")
 
 # get the entire intensity matrix
 im = andi_data.get_intensity_matrix()
