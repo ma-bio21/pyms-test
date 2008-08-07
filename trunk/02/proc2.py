@@ -17,9 +17,6 @@ peak_file = "/home/current/proj/PyMS/pyms-data/a0806_140.txt.anno"
 # read the ANDI-MS data file and Chemstation peak report
 andi_data = ChemStation(andi_file)
 
-andi_data.null_mass(73)
-andi_data.null_mass(147)
-
 peaks = read_chem_station_peaks(peak_file)
 
 # set the mass spectrum for each peak
