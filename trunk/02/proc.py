@@ -18,12 +18,10 @@ print "Peak raw area is", p.raw_area
 print "Peak normalized area is", p.norm_area
 print "Peak mass spectrum is", p.mass_spectrum
 
-# set peak mass spectrum. For this we need the raw data corresponding
+# set the peak mass spectrum. For this we need the raw data corresponding
 # to 'a0806_140.txt'
 andi_file = "/home/current/proj/PyMS/pyms-data/a0806_140.CDF"
 andi_data = ChemStation(andi_file)
-
-# set peak mass spectrum
 p.set_mass_spectrum(andi_data)
 
 # print mass spectrum and the m/z list on the screen. This will print 
