@@ -29,8 +29,8 @@ print "'tic' is a TIC:", tic.is_tic()
 print "'ic' is a TIC:",ic.is_tic()
 
 # save ion chromatograms to a file
-tic.write("output/tic.dat")
-ic.write("output/ic.dat")
+tic.write("output/tic.dat",minutes=True)
+ic.write("output/ic.dat",minutes=True)
 
 # get the entire intensity matrix
 im = andi_data.get_intensity_matrix()
