@@ -17,11 +17,13 @@ peak_file = "/home/current/proj/PyMS/pyms-data/a0806_140.txt.anno"
 andi_data = ChemStation(andi_file)
 peaks = read_chem_station_peaks(peak_file)
 
-# set the mass spectrum for each peak, and crop mass spectrum
-# to mz in range 50-540
+# the variable 'peaks' is a Python list
+type(peaks)
+print "The number of peaks is:", len(peaks)
+
+# set the mass spectrum for each peak
 for peak in peaks:
     peak.set_mass_spectrum(andi_data)
-    peak.crop_mass_spectrum(50, 540)
 
 # set up an experiment from this set of peaks
 expr = Experiment("a0806_140", peaks)
