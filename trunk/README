@@ -3,14 +3,16 @@ pyms-test
 
 SUMMARY
 
-This project contains examples of PyMS use, also discussed in the User Guide.
+Contains examples of PyMS use discussed in the PyMS User Guide
 
 CONTENT
 
 01/ -- Example demonstrating reading of GC-MS data from ANDI-MS files, how to
     obtain ion chromatogram and TIC, and how to save data to a file
 
-02/ -- Example demonstrating how to create an experiment from the ChemStation
-    ANDI-MS file and the peak integration report, and how to manipulate
-    experiment peaks
+02/ -- Explanation of signal peaks
+
+03/ -- Example showing how to create an experiment from the ChemStation
+    ANDI-MS file and the peak integration report files
+
 
