@@ -1,0 +1,56 @@
+ -> Processing netCDF file '/home/current/proj/PyMS/pyms-data/0512_079.CDF'
+    [ 2783 scans, masses from 50 to 550 ]
+ -> Reading ChemStation peak integration report '/home/current/proj/PyMS/pyms-data/0512_079.txt'
+ -> nulled mass 73
+ -> nulled mass 147
+ [ Reference peak found: 'rf-si' @ 873.720 s ]
+  [ Removing reference peak 'rf-si' @ 873.720 s ]
+  [ Removing reference peak 'rf-nl' @ 481.080 s ]
+	[ Designated blank peak at 374.760 s removed ]
+	[ Designated blank peak at 394.320 s removed ]
+	[ Designated blank peak at 451.560 s removed ]
+ Experiment 0512_079: 0 peaks purged (below threshold=0.00)
+ -> Selecting peaks by retention time (from 6.5m to 21m): 171 peaks selected
+ -> Experiment '0512_079' saved as 'output/0512_079.pickle'
+ -> Processing netCDF file '/home/current/proj/PyMS/pyms-data/0512_080.CDF'
+    [ 2784 scans, masses from 50 to 550 ]
+ -> Reading ChemStation peak integration report '/home/current/proj/PyMS/pyms-data/0512_080.txt'
+ -> nulled mass 73
+ -> nulled mass 147
+ [ Reference peak found: 'rf-si' @ 874.260 s ]
+  [ Removing reference peak 'rf-si' @ 874.260 s ]
+  [ Removing reference peak 'rf-nl' @ 481.260 s ]
+	[ Designated blank peak at 374.940 s removed ]
+	[ Designated blank peak at 394.140 s removed ]
+	[ Designated blank peak at 451.740 s removed ]
+ Experiment 0512_080: 1 peaks purged (below threshold=0.00)
+ -> Selecting peaks by retention time (from 6.5m to 21m): 165 peaks selected
+ -> Experiment '0512_080' saved as 'output/0512_080.pickle'
+ -> Processing netCDF file '/home/current/proj/PyMS/pyms-data/0512_084.CDF'
+    [ 2784 scans, masses from 50 to 550 ]
+ -> Reading ChemStation peak integration report '/home/current/proj/PyMS/pyms-data/0512_084.txt'
+ -> nulled mass 73
+ -> nulled mass 147
+ [ Reference peak found: 'rf-si' @ 873.900 s ]
+  [ Removing reference peak 'rf-si' @ 873.900 s ]
+  [ Removing reference peak 'rf-nl' @ 481.260 s ]
+	[ Designated blank peak at 374.940 s removed ]
+	[ Designated blank peak at 394.500 s removed ]
+	[ Designated blank peak at 451.740 s removed ]
+ Experiment 0512_084: 0 peaks purged (below threshold=0.00)
+ -> Selecting peaks by retention time (from 6.5m to 21m): 165 peaks selected
+ -> Experiment '0512_084' saved as 'output/0512_084.pickle'
+ -> Processing netCDF file '/home/current/proj/PyMS/pyms-data/0512_085.CDF'
+    [ 2784 scans, masses from 50 to 550 ]
+ -> Reading ChemStation peak integration report '/home/current/proj/PyMS/pyms-data/0512_085.txt'
+ -> nulled mass 73
+ -> nulled mass 147
+ [ Reference peak found: 'rf-si' @ 873.600 s ]
+  [ Removing reference peak 'rf-si' @ 873.600 s ]
+  [ Removing reference peak 'rf-nl' @ 481.260 s ]
+	[ Designated blank peak at 375.300 s removed ]
+	[ Designated blank peak at 394.860 s removed ]
+	[ Designated blank peak at 451.800 s removed ]
+ Experiment 0512_085: 0 peaks purged (below threshold=0.00)
+ -> Selecting peaks by retention time (from 6.5m to 21m): 167 peaks selected
+ -> Experiment '0512_085' saved as 'output/0512_085.pickle'
