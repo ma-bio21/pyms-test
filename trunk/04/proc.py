@@ -49,5 +49,5 @@ for expr_code in expr_codes:
     expr.sele_rt_range(["6.5m", "21m"])
 
     # dump experiment to a file
-    dump_expr(expr, "output/" + expr_code + ".pickle")
+    dump_expr(expr, "output/" + expr_code + ".expr")
 
