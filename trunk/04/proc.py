@@ -13,13 +13,13 @@ from pyms.Experiment.IO import dump_expr
 base_path = "/home/current/proj/PyMS/pyms-data/"
 
 # define experiments to process
-expr_codes = [ "0512_079", "0512_080", "0512_084", "0512_085" ]
+expr_codes = [ "a0806_140", "a0806_141", "a0806_142" ]
 
 # loop over all experiments
 for expr_code in expr_codes:
 
     # define the names of the peak file and the corresponding ANDI-MS file
-    peak_file = os.path.join(base_path, expr_code + ".txt")
+    peak_file = os.path.join(base_path, expr_code + ".txt.a")
     andi_file = os.path.join(base_path, expr_code + ".CDF")
 
     # load ANDI-MS data and chemstation peak list
