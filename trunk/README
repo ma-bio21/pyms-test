@@ -15,4 +15,5 @@ CONTENT
 03/ -- Example showing how to create an experiment from the ChemStation
     ANDI-MS file and the peak integration report files
 
+04/ -- Preparation of experiments for peak alignment by dynamic programming
 
