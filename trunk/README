@@ -17,6 +17,14 @@ CONTENT
 
 04/ -- Preparation of experiments for peak alignment by dynamic programming
 
-05/ -- Example of peak alignment by dynamic programming. The experiments
-    prepared in the example 04 are aligned
+04a/ -- Preparation of another set of experiments for peak alignment. This
+    used in example 06/ where two the sets of experiments (prepared in 04/
+    and 04a/) are aligned together
+
+05/ -- Example of within-state peak alignment by dynamic programming. The
+    experiments prepared in the example 04 are aligned
+
+06/ -- Example of within-state and between-state peak alignment by dynamic
+    programming. The experiments prepared in examples 04/ and 04a/ are
+    aligned
 
