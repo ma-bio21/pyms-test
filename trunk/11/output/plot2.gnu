@@ -1,11 +1,11 @@
-# plot1.gnu
+# plot2.gnu
 #
-# Gnuplot script to plot 'tic.dat'
+# Gnuplot script to plot 'tic.dat' and 'tic2.dat'
 #
 # Usage:
-#     $ gnuplot plot.gnu
+#     $ gnuplot plot2.gnu
 #
-# The plot will be saved as 'tic.eps'
+# The plot will be saved as 'tic_median_smoothed.eps'
 #
 
 set term post eps

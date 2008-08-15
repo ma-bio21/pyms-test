@@ -1,11 +1,11 @@
 # plot1.gnu
 #
-# Gnuplot script to plot 'tic.dat'
+# Gnuplot script to plot 'tic.dat' and 'tic1.dat'
 #
 # Usage:
-#     $ gnuplot plot.gnu
+#     $ gnuplot plot1.gnu
 #
-# The plot will be saved as 'tic.eps'
+# The plot will be saved as 'tic_mean_smoothed.eps'
 #
 
 set term post eps
