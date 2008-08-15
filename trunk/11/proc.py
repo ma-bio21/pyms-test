@@ -10,13 +10,18 @@ from pyms.Noise.Window import window_smooth
 # path to ANDI-MS data file
 andi_file = "/home/current/proj/PyMS/pyms-data/a0806_140.CDF"
 
-# get the intensity matrix
+# load the raw data
 andi_data = ChemStation(andi_file)
 
 # get TIC
 tic = andi_data.get_tic()
 
-# smooth TIC in two ways
-tic1 = window_smooth(tic, window=3)
-tic2 = window_smooth(tic, window=3, median=True)
+# moving window smoothing: mean & median smoothing
+tic1 = window_smooth(tic, window=5)
+tic2 = window_smooth(tic, window=5, median=True)
+
+# save the original TIC and smoothed TICs
+tic.write("output/tic.dat",minutes=True)
+tic1.write("output/tic1.dat",minutes=True)
+tic2.write("output/tic2.dat",minutes=True)
 
