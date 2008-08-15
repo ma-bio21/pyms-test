@@ -9,7 +9,7 @@
 #
 
 set term post eps
-set output 'tic1.eps'
+set output 'tic_mean_smoothed.eps'
 
 set xrange [6.3:7.0]
 set yrange [0:1.5e6]
