@@ -15,8 +15,10 @@ andi_data = ChemStation(andi_file)
 # get the TIC
 tic = andi_data.get_tic()
 
-# apply 5-point moving window smoothing & baseline corrector
+# apply 5-point moving window smoothing
 tic = window_smooth(tic, window=5)
+
+# apply tophat baseline correction with 1 min structural element
 tic2 = tophat(tic, struct="1m")
 
 # save the original and processed TICs
