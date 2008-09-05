@@ -7,10 +7,11 @@ sys.path.append("/home/current/proj/PyMS/")
 from pyms.IO.ANDI.Class import ChemStation
 from pyms.Peak.Class import Peak
 
-# create a peak with retention time 5.553 min and raw area of 2759280
+# Create a peak with retention time 7.311 min and raw area of 33768615
 # (these parameters were taken from the peak #3 from the ChemStation
-# integration report file 'a0806_140.txt')
-p = Peak(5.553*60.0,2759280)
+# integration report file 'a0806_140.txt'). Convert retention time to
+# seconds
+p = Peak(7.311*60.0,33768615)
 
 # print some properties of this peak
 print "Peak retention time is", p.rt
@@ -18,7 +19,7 @@ print "Peak raw area is", p.raw_area
 print "Peak normalized area is", p.norm_area
 print "Peak mass spectrum is", p.mass_spectrum
 
-# set the peak mass spectrum. For this we need the raw data corresponding
+# Set the peak mass spectrum. For this we need the raw data corresponding
 # to 'a0806_140.txt'
 andi_file = "/home/current/proj/PyMS/pyms-data/a0806_140.CDF"
 andi_data = ChemStation(andi_file)
