@@ -7,6 +7,9 @@ Contains examples of PyMS use discussed in the PyMS User Guide
 
 CONTENT
 
+Basics
+------
+
 01/ -- Example demonstrating reading of GC-MS data from ANDI-MS files, how to
     obtain ion chromatogram and TIC, and how to save data to a file
 
@@ -14,6 +17,9 @@ CONTENT
 
 03/ -- Example showing how to create an experiment from the ChemStation
     ANDI-MS file and the peak integration report files
+
+Peak alignment examples
+-----------------------
 
 04/ -- Preparation of experiments for peak alignment by dynamic programming
 
@@ -27,4 +33,11 @@ CONTENT
 06/ -- Example of within-state and between-state peak alignment by dynamic
     programming. The experiments prepared in examples 04/ and 04a/ are
     aligned
+
+Data pre processing
+-------------------
+
+11/ -- Noise filtering with mean/median moving windows 
+
+21/ -- Top hat Baseline correction
 
