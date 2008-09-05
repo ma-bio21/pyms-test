@@ -39,5 +39,5 @@ Data pre processing
 
 11/ -- Noise filtering with mean/median moving windows 
 
-21/ -- Top hat Baseline correction
+12/ -- Top hat Baseline correction
 
