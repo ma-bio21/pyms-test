@@ -1,11 +1,7 @@
 # plot.gnu
 #
-# Gnuplot script to plot 'ms.dat'
-#
 # Usage:
 #     $ gnuplot plot.gnu
-#
-# The plot will be saved as 'ms.eps'
 #
 
 set term post eps
