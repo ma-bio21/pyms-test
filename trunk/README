@@ -39,5 +39,7 @@ Data pre processing
 
 11/ -- Noise filtering with mean/median moving windows 
 
-12/ -- Top hat Baseline correction
+12/ -- Noise filtering with Savitzky-Golay filter
+
+21/ -- Top hat baseline correction
 
