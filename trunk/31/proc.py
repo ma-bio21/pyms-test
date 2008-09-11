@@ -14,7 +14,8 @@ nist_lib = NIST_library(nist_file)
 
 # print compounds and their mass spectra
 for compound in nist_lib.compounds:
-    print "Compound '%s' has '%d' mass peaks" % (compound.name, compound.num_peaks)
-    print "Mass spectrum list:\n\t",  compound.mass_spectrum
-    print "Mass list:\n\t",  compound.mass_list
+    print "Compound '%s' has '%d' mass peaks" % \
+            (compound.name, compound.num_peaks)
+    print "Mass list (first 10):\n",  compound.mass_list[:10]
+    print "Mass spectrum list (first 10):\n",  compound.mass_spectrum[:10]
 
