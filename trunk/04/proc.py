@@ -10,7 +10,7 @@ from pyms.Peak.List.IO import read_chem_station_peaks
 from pyms.Experiment.IO import dump_expr
 
 # define path to data files
-base_path = "/home/current/proj/PyMS/pyms-data/"
+base_path = "/home/current/proj/PyMS/data/pyms-data/"
 
 # define experiments to process
 expr_codes = [ "a0806_140", "a0806_141", "a0806_142" ]

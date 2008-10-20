@@ -8,7 +8,7 @@ from pyms.IO.ANDI.Class import ChemStation
 from pyms.Noise.Window import window_smooth
 
 # read the raw data
-andi_file = "/home/current/proj/PyMS/pyms-data/a0806_140.CDF"
+andi_file = "/home/current/proj/PyMS/data/pyms-data/a0806_140.CDF"
 andi_data = ChemStation(andi_file)
 
 # get the TIC

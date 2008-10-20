@@ -10,8 +10,8 @@ from pyms.Peak.List.IO import read_chem_station_peaks
 from pyms.Experiment.IO import dump_expr
 
 # path to ANDI-MS data file and  annotated ChemStation peak file
-andi_file = "/home/current/proj/PyMS/pyms-data/a0806_140.CDF"
-peak_file = "/home/current/proj/PyMS/pyms-data/a0806_140.txt.a"
+andi_file = "/home/current/proj/PyMS/data/pyms-data/a0806_140.CDF"
+peak_file = "/home/current/proj/PyMS/data/pyms-data/a0806_140.txt.a"
 
 # read the ANDI-MS data file and Chemstation peak report
 andi_data = ChemStation(andi_file)
