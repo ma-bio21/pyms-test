@@ -10,8 +10,11 @@ CONTENT
 Basics
 ------
 
-01/ -- Example demonstrating reading of GC-MS data from ANDI-MS files, how to
-    obtain ion chromatogram and TIC, and how to save data to a file
+01/ -- Example demonstrating reading of GC-MS data from ChemStation (Agilent
+    Technologies) ANDI-MS files, shows how to obtain ion chromatogram and TIC,
+    and how to save data to a file
+
+01a/ -- Xcalibur (Thermo) ANDI-MS file example, similar to 01/
 
 02/ -- Explanation of signal peaks
 
