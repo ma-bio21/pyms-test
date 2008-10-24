@@ -21,6 +21,9 @@ Basics
 03/ -- Example showing how to create an experiment from the ChemStation
     ANDI-MS file and the peak integration report files
 
+03a/ -- Example showing how to create an experiment from the Xcalibur
+    ANDI-MS file and the peak report file
+
 Peak alignment examples
 -----------------------
 
