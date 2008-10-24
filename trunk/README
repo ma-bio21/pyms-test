@@ -24,6 +24,9 @@ Basics
 03a/ -- Example showing how to create an experiment from the Xcalibur
     ANDI-MS file and the peak report file
 
+03b/ -- Creating an experiment from Xcalibur ANDI-MS data with AMDIS
+    generated peak list
+
 Peak alignment examples
 -----------------------
 
