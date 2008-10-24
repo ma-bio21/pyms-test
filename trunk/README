@@ -27,22 +27,6 @@ Basics
 03b/ -- Creating an experiment from Xcalibur ANDI-MS data with AMDIS
     generated peak list
 
-Peak alignment examples
------------------------
-
-04/ -- Preparation of experiments for peak alignment by dynamic programming
-
-04a/ -- Preparation of another set of experiments for peak alignment. This
-    used in example 06/ where two the sets of experiments (prepared in 04/
-    and 04a/) are aligned together
-
-05/ -- Example of within-state peak alignment by dynamic programming. The
-    experiments prepared in the example 04 are aligned
-
-06/ -- Example of within-state and between-state peak alignment by dynamic
-    programming. The experiments prepared in examples 04/ and 04a/ are
-    aligned
-
 Data pre processing
 -------------------
 
@@ -56,4 +40,20 @@ MS libraries
 ------------
 
 31/ -- Demonstrates reading of the NIST library
+
+Peak alignment examples
+-----------------------
+
+61/ -- Preparation of experiments for peak alignment by dynamic programming
+
+61a/ -- Preparation of another set of experiments for peak alignment. This
+    used in example 06/ where two the sets of experiments (prepared in 04/
+    and 04a/) are aligned together
+
+62/ -- Example of within-state peak alignment by dynamic programming. The
+    experiments prepared in the example 04 are aligned
+
+63/ -- Example of within-state and between-state peak alignment by dynamic
+    programming. The experiments prepared in examples 04/ and 04a/ are
+    aligned
 
