@@ -2,7 +2,7 @@
 """
 
 import sys
-sys.path.append("/home/current/proj/PyMS/")
+sys.path.append("/x/proj.archive/proj/PyMS/")
 
 from pyms.IO.ANDI.Class import ChemStation
 from pyms.Peak.Class import Peak
@@ -21,7 +21,7 @@ print "Peak mass spectrum is", p.mass_spectrum
 
 # Set the peak mass spectrum. For this we need the raw data corresponding
 # to 'a0806_140.txt'
-andi_file = "/home/current/proj/PyMS/data/pyms-data/a0806_140.CDF"
+andi_file = "/x/proj.archive/proj/PyMS/data/pyms-data/a0806_140.CDF"
 andi_data = ChemStation(andi_file)
 p.set_mass_spectrum(andi_data)
 

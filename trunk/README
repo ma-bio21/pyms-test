@@ -39,7 +39,8 @@ Data pre processing
 MS libraries
 ------------
 
-31/ -- Demonstrates reading of the NIST library
+31/ -- Demonstrates reading of the NIST library intermediate format
+    (under development)
 
 Peak alignment examples
 -----------------------

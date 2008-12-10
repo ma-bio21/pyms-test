@@ -2,7 +2,7 @@
 """
 
 import sys, os
-sys.path.append("/home/current/proj/PyMS/")
+sys.path.append("/x/proj.archive/proj/PyMS/")
 
 from pyms.IO.ANDI.Class import ChemStation
 from pyms.Experiment.Class import Experiment
@@ -10,7 +10,7 @@ from pyms.Peak.List.IO import read_chem_station_peaks
 from pyms.Experiment.IO import dump_expr
 
 # define path to data files
-base_path = "/home/current/proj/PyMS/data/pyms-data/"
+base_path = "/x/proj.archive/proj/PyMS/data/pyms-data/"
 
 # define experiments to process
 expr_codes = [ "a0806_077", "a0806_078", "a0806_079" ]

@@ -2,13 +2,13 @@
 """
 
 import sys
-sys.path.append("/home/current/proj/PyMS/")
+sys.path.append("/x/proj.archive/proj/PyMS/")
 
 from pyms.IO.ANDI.Class import ChemStation
 from pyms.Utils.IO import save_data
 
 # path to ANDI-MS data file
-andi_file = "/home/current/proj/PyMS/data/pyms-data/a0806_140.CDF"
+andi_file = "/x/proj.archive/proj/PyMS/data/pyms-data/a0806_140.CDF"
 
 # get the intensity matrix and save to a file
 andi_data = ChemStation(andi_file)
