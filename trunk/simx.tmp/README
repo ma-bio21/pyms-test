@@ -1,9 +1,0 @@
-OVERVIEW
-The files in this directory are an attempt to translate some octave code to
-python.  The code creates a chromatography mass spectrogram as the matrix
-product of a spectra matrix and a component matrix.
-
-To use:
-
-$ python proc.py
-
