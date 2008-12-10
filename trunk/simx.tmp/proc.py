@@ -1,6 +1,6 @@
 
-import sys, os
-sys.path.append("/x/proj.archive/proj/PyMS/")
+#import sys, os
+#sys.path.append("/x/proj.archive/proj/PyMS/")
 
 from simx import Simx
 

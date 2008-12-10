@@ -26,7 +26,7 @@ ic = andi_data.get_ic_at_mass(73)
 
 # some tests on ion chromatogram objects
 print "'tic' is a TIC:", tic.is_tic()
-print "'ic' is a TIC:",ic.is_tic()
+print "'ic' is a TIC:", ic.is_tic()
 
 # save ion chromatograms to a file
 tic.write("output/tic.dat",minutes=True)
