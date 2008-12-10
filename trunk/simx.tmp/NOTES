@@ -1,0 +1,9 @@
+NOTES
+20/11/2008
+Python is not Java!
+Avoid trying to do Java style programming.
+
+25/11/2008
+Python style issues:
+    is there a way to set gloabal constants?
+    should i use mangled vars for local scope?
