@@ -8,11 +8,11 @@ from pyms.Experiment.IO import load_amdis_expr
 from pyms.IO.ANDI.Class import Xcalibur
 
 # path to ANDI-MS data which was used to generate AMDIS ELU data.
-andi_file = "/x/proj.archive/proj/PyMS/data/pyms-data/121107B_10.CDF"
+andi_file = "/x/proj.archive/proj/PyMS/data/121107B_10.CDF"
 andi_data = Xcalibur(andi_file)
 
 # path to AMDIS ELU data file
-amdis_file = "/x/proj.archive/proj/PyMS/data/pyms-data/121107B_10.ELU"
+amdis_file = "/x/proj.archive/proj/PyMS/data/121107B_10.ELU"
 
 # This full data is an optional argument. If available the full mass
 # spectra for the peaks will be used, and not the AMDIS generated

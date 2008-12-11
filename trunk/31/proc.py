@@ -7,7 +7,7 @@ sys.path.append("/x/proj.archive/proj/PyMS/")
 from pyms.MSlib.NIST.Class import NIST_library
 
 # the NIST library file
-nist_file = "/x/proj.archive/proj/PyMS/data/pyms-data/NIST_sample.lib"
+nist_file = "/x/proj.archive/proj/PyMS/data/NIST_sample.lib"
 
 # load the NIST library
 nist_lib = NIST_library(nist_file)

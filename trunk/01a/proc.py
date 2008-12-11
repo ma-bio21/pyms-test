@@ -8,7 +8,7 @@ from pyms.IO.ANDI.Class import Xcalibur
 from pyms.Utils.IO import save_data
 
 # path to ANDI-MS data file
-andi_file = "/x/proj.archive/proj/PyMS/data/pyms-data/121107B_10.CDF"
+andi_file = "/x/proj.archive/proj/PyMS/data/121107B_10.CDF"
 
 # get the intensity matrix and save to a file
 andi_data = Xcalibur(andi_file)

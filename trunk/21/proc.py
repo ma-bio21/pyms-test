@@ -9,7 +9,7 @@ from pyms.Noise.Window import window_smooth
 from pyms.Baseline.TopHat import tophat
 
 # load the data
-andi_file = "/x/proj.archive/proj/PyMS/data/pyms-data/a0806_140.CDF"
+andi_file = "/x/proj.archive/proj/PyMS/data/a0806_140.CDF"
 andi_data = ChemStation(andi_file)
 
 # get the TIC
