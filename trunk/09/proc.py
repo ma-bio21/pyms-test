@@ -6,7 +6,7 @@ import numpy
 import sys
 sys.path.append("/x/proj.archive/proj/PyMS/")
 
-from pyms.Isotope.MFRA.Functions import correction_matrix, mass_dist_vector, c_mass_isotope_distr
+from pyms.Isotope.MFRA.Function import correction_matrix, mass_dist_vector, c_mass_isotope_distr
 from pyms.Isotope.MFRA.Constants import nsi
 
 # -- input data ---
