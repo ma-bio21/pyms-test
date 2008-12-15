@@ -22,8 +22,8 @@ print "Peak mass spectrum is", p.mass_spectrum
 # Set the peak mass spectrum. For this we need the raw data corresponding
 # to 'a0806_140.txt'
 andi_file = "/x/proj.archive/proj/PyMS/data/a0806_140.CDF"
-andi_data = ChemStation(andi_file)
-p.set_mass_spectrum(andi_data)
+data = ChemStation(andi_file)
+p.set_mass_spectrum(data)
 
 # print mass spectrum and the m/z list on the screen. This will print 
 # a bunch of numbers

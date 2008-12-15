@@ -9,10 +9,10 @@ from pyms.Noise.Window import window_smooth
 
 # read the raw data
 andi_file = "/x/proj.archive/proj/PyMS/data/a0806_140.CDF"
-andi_data = ChemStation(andi_file)
+data = ChemStation(andi_file)
 
 # get the TIC
-tic = andi_data.get_tic()
+tic = data.get_tic()
 
 # apply window smoothing: mean and median, in both cases
 # the window is 5 points

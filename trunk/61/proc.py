@@ -23,17 +23,17 @@ for expr_code in expr_codes:
     andi_file = os.path.join(base_path, expr_code + ".CDF")
 
     # load ANDI-MS data and chemstation peak list
-    andi_data = ChemStation(andi_file)
+    data = ChemStation(andi_file)
     peaks = read_chem_station_peaks(peak_file)
 
     # null ion chromatograms for m/z=73 and m/z=147. These masses
     # originate from the derivatiziing agent
-    andi_data.null_mass(73)
-    andi_data.null_mass(147)
+    data.null_mass(73)
+    data.null_mass(147)
 
     # loop over peaks and add mass spectrum
     for peak in peaks:
-        peak.set_mass_spectrum(andi_data)
+        peak.set_mass_spectrum(data)
         peak.crop_mass_spectrum(50,540)
 
     # create an experiment object
