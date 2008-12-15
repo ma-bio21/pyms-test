@@ -36,8 +36,10 @@ Data pre processing
 
 21/ -- Top hat baseline correction
 
-MS libraries
-------------
+Peak detection
+--------------
+
+30/ -- Demonstrates simple 'minmax' peak detector for TIC
 
 31/ -- Demonstrates reading of the NIST library intermediate format
     (under development)
