@@ -1,13 +1,12 @@
 """proc.py
 """
 
-import numpy
-
 import sys
 sys.path.append("/x/proj.archive/proj/PyMS/")
 
-from pyms.Isotope.MFRA.Function import overall_correction_matrix, correction_matrix, c_mass_isotope_distr, mass_dist_vector
-from pyms.Isotope.MFRA.Constants import nsi
+from pyms.Isotope.MFRA.Function import fract_labelling, corr_unlabelled, \
+    overall_correction_matrix, correction_matrix, c_mass_isotope_distr, \
+    mass_dist_vector
 
 # -- input data ---
 # measured mass distribution vector
@@ -24,14 +23,14 @@ atoms = {
 }
 
 # correction for unlabelled biomass
-f_unlablelled = 0.01
+f_unlabelled = 0.01
 # -- end of input data --
 
-# calculate n
+# calculate n, this could work depending on the content of the  input file
 n = len(mdv)-1
 
 # the overall correction matrix
-c_corr = overall_correction_matrix(n, mdv, atoms, nsi)
+c_corr = overall_correction_matrix(n, mdv, atoms)
 print('\n Overall correction matrix:')
 print(c_corr)
 
@@ -41,15 +40,12 @@ print('\n Normalised mdv alpha star:')
 print(mdv_alpha_star)
 
 # correction for unlabelled biomass
-mdv_unlabelled = mass_dist_vector(n, n, nsi['c'])
-mdv_aa = (mdv_alpha_star - f_unlablelled * mdv_unlabelled)/(1 - f_unlablelled)
+mdv_aa = corr_unlabelled(n, mdv_alpha_star, f_unlabelled)
 print('\n mdv_aa:')
 print(mdv_aa)
 
 # For [U-13C]glucose experiments, the fractional labelling (FL) of the different
 # fragments should be equal to the labelling content of the input substrate 
-# (i.e. when 20% [U-13C]glucose is used, the FL should be 0.2 for all fragments)
-mdv_aa = numpy.matrix(mdv_aa)
-fl = (range(0,(n+1)) * mdv_aa) / (n * numpy.sum(mdv_aa))
-print('\n Fractional labelling FL:')
-print(fl)
+# (i.e. when 20% [U-13C]glucose is used, the FL should be 0.2 for all fragments).
+fl = fract_labelling(n, mdv_aa)
+print('\n Fractional labelling FL: %s' % ( fl ))

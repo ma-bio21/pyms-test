@@ -24,5 +24,5 @@ peaks = minmax(tic_bc, 1.5*noise, window="1.7s")
 
 # write TIC and peaks
 tic_bc.write("output/tic.dat")
-write_peaks(peaks, "output/peaks.dat")
+write_peaks(peaks, "output/peaks.dat", verbose_level=1)
 
