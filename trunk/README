@@ -41,8 +41,10 @@ Peak detection
 
 30/ -- Demonstrates simple 'minmax' peak detector for TIC
 
-31/ -- Demonstrates reading of the NIST library intermediate format
-    (under development)
+Simulator
+---------
+
+50/ -- GC-MS data simulator
 
 Peak alignment examples
 -----------------------
