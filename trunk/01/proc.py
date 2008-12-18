@@ -8,8 +8,8 @@ from pyms.IO.ANDI.Class import ChemStation
 from pyms.Utils.IO import save_data
 
 # read the raw data
-data = ChemStation(andi_file)
 andi_file = "/x/proj.archive/proj/PyMS/data/a0806_140.CDF"
+data = ChemStation(andi_file)
 
 # print the name of the ANDI-MS file
 print "ANDI-MS data filename:", data.get_filename()
