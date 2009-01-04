@@ -24,7 +24,7 @@ F1 = exprl2alignment(E1)
 T1 = PairwiseAlignment(F1, Dw, Gw)
 A1 = align_with_tree(T1, min_peaks=2)
 
-print 'Aligning input 1'
+print 'Aligning input 2'
 E2 = read_expr_list(input2)
 F2 = exprl2alignment(E2)
 T2 = PairwiseAlignment(F2, Dw, Gw)
