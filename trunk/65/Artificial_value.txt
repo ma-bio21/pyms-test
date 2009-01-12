@@ -1,6 +1,6 @@
-----------------------------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 108 , End at: 109 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 530.666666667 Left: 33072.0 Inter: 33602.6666667 Inter: 34133.3333333 Right: 34664.0
 Gap point:  Slope: -832.0 Left: 39296.0 Inter: 38464.0 Inter: 37632.0 Right: 36800.0
 Gap point:  Slope: 546.666666667 Left: 67936.0 Inter: 68482.6666667 Inter: 69029.3333333 Right: 69576.0
@@ -502,10 +502,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 120 , End at: 120 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: -48.0 Left: 31544.0 Inter: 31496.0 Right: 31448.0
 Gap point:  Slope: 692.0 Left: 35568.0 Inter: 36260.0 Right: 36952.0
 Gap point:  Slope: -576.0 Left: 69448.0 Inter: 68872.0 Right: 68296.0
@@ -1007,10 +1007,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 123 , End at: 123 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: -16580.0 Left: 33160.0 Inter: 16580.0 Right: 0.0
 Gap point:  Slope: 1752.0 Left: 35392.0 Inter: 37144.0 Right: 38896.0
 Gap point:  Slope: 1868.0 Left: 65224.0 Inter: 67092.0 Right: 68960.0
@@ -1512,10 +1512,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 125 , End at: 125 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 16252.0 Left: 0.0 Inter: 16252.0 Right: 32504.0
 Gap point:  Slope: -1812.0 Left: 38896.0 Inter: 37084.0 Right: 35272.0
 Gap point:  Slope: -252.0 Left: 68960.0 Inter: 68708.0 Right: 68456.0
@@ -2017,10 +2017,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 127 , End at: 127 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: -720.0 Left: 32504.0 Inter: 31784.0 Right: 31064.0
 Gap point:  Slope: 416.0 Left: 35272.0 Inter: 35688.0 Right: 36104.0
 Gap point:  Slope: -388.0 Left: 68456.0 Inter: 68068.0 Right: 67680.0
@@ -2522,10 +2522,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 131 , End at: 131 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: -396.0 Left: 32152.0 Inter: 31756.0 Right: 31360.0
 Gap point:  Slope: -1120.0 Left: 36928.0 Inter: 35808.0 Right: 34688.0
 Gap point:  Slope: -1516.0 Left: 68264.0 Inter: 66748.0 Right: 65232.0
@@ -3027,10 +3027,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 348 , End at: 348 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: -236.0 Left: 19504.0 Inter: 19268.0 Right: 19032.0
 Gap point:  Slope: -268.0 Left: 22616.0 Inter: 22348.0 Right: 22080.0
 Gap point:  Slope: -1084.0 Left: 39816.0 Inter: 38732.0 Right: 37648.0
@@ -3532,10 +3532,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 352 , End at: 352 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 280.0 Left: 21008.0 Inter: 21288.0 Right: 21568.0
 Gap point:  Slope: 456.0 Left: 39408.0 Inter: 39864.0 Right: 40320.0
@@ -4037,10 +4037,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 488 , End at: 488 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 131.0 Left: 15126.0 Inter: 15257.0 Right: 15388.0
 Gap point:  Slope: -160.0 Left: 17824.0 Inter: 17664.0 Right: 17504.0
 Gap point:  Slope: 1936.0 Left: 29032.0 Inter: 30968.0 Right: 32904.0
@@ -4542,10 +4542,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 494 , End at: 494 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: -240.0 Left: 17808.0 Inter: 17568.0 Right: 17328.0
 Gap point:  Slope: -288.0 Left: 31096.0 Inter: 30808.0 Right: 30520.0
@@ -5047,10 +5047,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 650 , End at: 650 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: -35.5 Left: 11978.0 Inter: 11942.5 Right: 11907.0
 Gap point:  Slope: 398.0 Left: 13731.0 Inter: 14129.0 Right: 14527.0
 Gap point:  Slope: -164.0 Left: 24520.0 Inter: 24356.0 Right: 24192.0
@@ -5552,10 +5552,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 866 , End at: 866 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: -176.0 Left: 11009.0 Inter: 10833.0 Right: 10657.0
 Gap point:  Slope: -96.0 Left: 19352.0 Inter: 19256.0 Right: 19160.0
@@ -6057,10 +6057,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 936 , End at: 936 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 118.0 Left: 9604.0 Inter: 9722.0 Right: 9840.0
 Gap point:  Slope: -396.0 Left: 17424.0 Inter: 17028.0 Right: 16632.0
@@ -6562,10 +6562,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 1024 , End at: 1024 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: -3883.5 Left: 7767.0 Inter: 3883.5 Right: 0.0
 Gap point:  Slope: 269.5 Left: 9139.0 Inter: 9408.5 Right: 9678.0
 Gap point:  Slope: -54.0 Left: 15795.0 Inter: 15741.0 Right: 15687.0
@@ -7067,10 +7067,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 1197 , End at: 1197 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: -185.5 Left: 8625.0 Inter: 8439.5 Right: 8254.0
 Gap point:  Slope: 118.0 Left: 13781.0 Inter: 13899.0 Right: 14017.0
@@ -7572,10 +7572,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 1267 , End at: 1267 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: -2909.0 Left: 5818.0 Inter: 2909.0 Right: 0.0
 Gap point:  Slope: -313.5 Left: 7776.0 Inter: 7462.5 Right: 7149.0
 Gap point:  Slope: -368.5 Left: 13924.0 Inter: 13555.5 Right: 13187.0
@@ -8077,10 +8077,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 1398 , End at: 1398 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: -150.0 Left: 5867.0 Inter: 5717.0 Right: 5567.0
 Gap point:  Slope: -140.5 Left: 6594.0 Inter: 6453.5 Right: 6313.0
 Gap point:  Slope: -943.5 Left: 12613.0 Inter: 11669.5 Right: 10726.0
@@ -8582,10 +8582,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 1791 , End at: 1791 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: -2384.0 Left: 4768.0 Inter: 2384.0 Right: 0.0
 Gap point:  Slope: -21.0 Left: 5016.0 Inter: 4995.0 Right: 4974.0
 Gap point:  Slope: 330.5 Left: 9583.0 Inter: 9913.5 Right: 10244.0
@@ -9087,10 +9087,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 1793 , End at: 1793 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 2322.0 Left: 0.0 Inter: 2322.0 Right: 4644.0
 Gap point:  Slope: 60.5 Left: 4974.0 Inter: 5034.5 Right: 5095.0
 Gap point:  Slope: -647.5 Left: 10244.0 Inter: 9596.5 Right: 8949.0
@@ -9592,10 +9592,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 1875 , End at: 1875 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 75.5 Left: 4003.0 Inter: 4078.5 Right: 4154.0
 Gap point:  Slope: -30.5 Left: 4732.0 Inter: 4701.5 Right: 4671.0
 Gap point:  Slope: 386.0 Left: 7858.0 Inter: 8244.0 Right: 8630.0
@@ -10097,10 +10097,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 1891 , End at: 1894 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: -67.6 Left: 5346.0 Inter: 5278.4 Inter: 5210.8 Inter: 5143.2 Inter: 5075.6 Right: 5008.0
 Gap point:  Slope: 8.8 Left: 8782.0 Inter: 8790.8 Inter: 8799.6 Inter: 8808.4 Inter: 8817.2 Right: 8826.0
@@ -10602,10 +10602,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Rig
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 1896 , End at: 1898 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: -71.5 Left: 5008.0 Inter: 4936.5 Inter: 4865.0 Inter: 4793.5 Right: 4722.0
 Gap point:  Slope: -65.25 Left: 8826.0 Inter: 8760.75 Inter: 8695.5 Inter: 8630.25 Right: 8565.0
@@ -11107,10 +11107,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 1918 , End at: 1918 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 196.0 Left: 5144.0 Inter: 5340.0 Right: 5536.0
 Gap point:  Slope: -160.0 Left: 8502.0 Inter: 8342.0 Right: 8182.0
@@ -11612,10 +11612,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 2053 , End at: 2053 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: -330.5 Left: 4497.0 Inter: 4166.5 Right: 3836.0
 Gap point:  Slope: -51.0 Left: 7988.0 Inter: 7937.0 Right: 7886.0
@@ -12117,10 +12117,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 2056 , End at: 2056 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 2058.0 Left: 0.0 Inter: 2058.0 Right: 4116.0
 Gap point:  Slope: -446.0 Left: 5191.0 Inter: 4745.0 Right: 4299.0
 Gap point:  Slope: -282.5 Left: 8091.0 Inter: 7808.5 Right: 7526.0
@@ -12622,10 +12622,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 2103 , End at: 2103 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 19.5 Left: 4021.0 Inter: 4040.5 Right: 4060.0
 Gap point:  Slope: 720.0 Left: 7485.0 Inter: 8205.0 Right: 8925.0
@@ -13127,10 +13127,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 2165 , End at: 2165 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 1600.5 Left: 0.0 Inter: 1600.5 Right: 3201.0
 Gap point:  Slope: -176.0 Left: 4644.0 Inter: 4468.0 Right: 4292.0
 Gap point:  Slope: -445.5 Left: 8249.0 Inter: 7803.5 Right: 7358.0
@@ -13632,10 +13632,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 2306 , End at: 2306 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 125.0 Left: 3996.0 Inter: 4121.0 Right: 4246.0
 Gap point:  Slope: 75.5 Left: 7416.0 Inter: 7491.5 Right: 7567.0
@@ -14137,10 +14137,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 2379 , End at: 2379 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: -53.5 Left: 3490.0 Inter: 3436.5 Right: 3383.0
 Gap point:  Slope: -727.0 Left: 7139.0 Inter: 6412.0 Right: 5685.0
@@ -14642,10 +14642,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 2534 , End at: 2534 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: -1603.0 Left: 3206.0 Inter: 1603.0 Right: 0.0
 Gap point:  Slope: 288.5 Left: 3127.0 Inter: 3415.5 Right: 3704.0
 Gap point:  Slope: 168.0 Left: 6860.0 Inter: 7028.0 Right: 7196.0
@@ -15147,10 +15147,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 2592 , End at: 2592 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: -221.0 Left: 3905.0 Inter: 3684.0 Right: 3463.0
 Gap point:  Slope: -292.5 Left: 6643.0 Inter: 6350.5 Right: 6058.0
@@ -15652,10 +15652,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 2680 , End at: 2680 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 221.0 Left: 2836.0 Inter: 3057.0 Right: 3278.0
 Gap point:  Slope: 53.5 Left: 3480.0 Inter: 3533.5 Right: 3587.0
 Gap point:  Slope: 433.0 Left: 5380.0 Inter: 5813.0 Right: 6246.0
@@ -16157,10 +16157,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 2772 , End at: 2772 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 82.5 Left: 2517.0 Inter: 2599.5 Right: 2682.0
 Gap point:  Slope: -150.0 Left: 3572.0 Inter: 3422.0 Right: 3272.0
 Gap point:  Slope: 34.0 Left: 6406.0 Inter: 6440.0 Right: 6474.0
@@ -16662,10 +16662,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 3118 , End at: 3118 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 31.5 Left: 2949.0 Inter: 2980.5 Right: 3012.0
 Gap point:  Slope: -19.0 Left: 2938.0 Inter: 2919.0 Right: 2900.0
 Gap point:  Slope: -242.5 Left: 5445.0 Inter: 5202.5 Right: 4960.0
@@ -17167,10 +17167,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 116.0 Left: 0.0 Inter: 116.0 Right: 232.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 79 , End at: 79 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: -1280.0 Left: 50096.0 Inter: 48816.0 Right: 47536.0
 Gap point:  Slope: 1268.0 Left: 83400.0 Inter: 84668.0 Right: 85936.0
@@ -17672,10 +17672,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 164 , End at: 164 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: -684.0 Left: 36896.0 Inter: 36212.0 Right: 35528.0
 Gap point:  Slope: 724.0 Left: 66088.0 Inter: 66812.0 Right: 67536.0
@@ -18177,10 +18177,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 203 , End at: 204 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 146.666666667 Left: 33456.0 Inter: 33602.6666667 Inter: 33749.3333333 Right: 33896.0
 Gap point:  Slope: 882.666666667 Left: 59016.0 Inter: 59898.6666667 Inter: 60781.3333333 Right: 61664.0
@@ -18682,10 +18682,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 321 , End at: 322 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 1344.0 Left: 23688.0 Inter: 25032.0 Inter: 26376.0 Right: 27720.0
 Gap point:  Slope: -941.333333333 Left: 49304.0 Inter: 48362.6666667 Inter: 47421.3333333 Right: 46480.0
@@ -19187,10 +19187,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 483 , End at: 485 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 4254.0 Left: 0.0 Inter: 4254.0 Inter: 8508.0 Inter: 12762.0 Right: 17016.0
 Gap point:  Slope: 220.0 Left: 20304.0 Inter: 20524.0 Inter: 20744.0 Inter: 20964.0 Right: 21184.0
 Gap point:  Slope: -188.0 Left: 35464.0 Inter: 35276.0 Inter: 35088.0 Inter: 34900.0 Right: 34712.0
@@ -19692,10 +19692,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 518 , End at: 518 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 7978.0 Left: 0.0 Inter: 7978.0 Right: 15956.0
 Gap point:  Slope: 324.0 Left: 19416.0 Inter: 19740.0 Right: 20064.0
 Gap point:  Slope: -1284.0 Left: 36208.0 Inter: 34924.0 Right: 33640.0
@@ -20197,10 +20197,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 952 , End at: 952 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: -5414.0 Left: 10828.0 Inter: 5414.0 Right: 0.0
 Gap point:  Slope: -864.5 Left: 11999.0 Inter: 11134.5 Right: 10270.0
 Gap point:  Slope: -224.0 Left: 19408.0 Inter: 19184.0 Right: 18960.0
@@ -20702,10 +20702,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 1172 , End at: 1172 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: -474.5 Left: 8210.0 Inter: 7735.5 Right: 7261.0
 Gap point:  Slope: -130.0 Left: 8686.0 Inter: 8556.0 Right: 8426.0
 Gap point:  Slope: 31.0 Left: 15775.0 Inter: 15806.0 Right: 15837.0
@@ -21207,10 +21207,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 1357 , End at: 1357 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 3381.0 Left: 0.0 Inter: 3381.0 Right: 6762.0
 Gap point:  Slope: 87.5 Left: 6803.0 Inter: 6890.5 Right: 6978.0
 Gap point:  Slope: 763.0 Left: 12027.0 Inter: 12790.0 Right: 13553.0
@@ -21712,10 +21712,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 1425 , End at: 1425 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: -116.0 Left: 5950.0 Inter: 5834.0 Right: 5718.0
 Gap point:  Slope: -471.5 Left: 7580.0 Inter: 7108.5 Right: 6637.0
 Gap point:  Slope: -347.0 Left: 13031.0 Inter: 12684.0 Right: 12337.0
@@ -22217,10 +22217,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 1468 , End at: 1468 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: -74.0 Left: 6487.0 Inter: 6413.0 Right: 6339.0
 Gap point:  Slope: -106.5 Left: 6974.0 Inter: 6867.5 Right: 6761.0
 Gap point:  Slope: 161.0 Left: 11187.0 Inter: 11348.0 Right: 11509.0
@@ -22722,10 +22722,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 2339 , End at: 2340 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: -1214.0 Left: 3642.0 Inter: 2428.0 Inter: 1214.0 Right: 0.0
 Gap point:  Slope: -121.666666667 Left: 4255.0 Inter: 4133.33333333 Inter: 4011.66666667 Right: 3890.0
 Gap point:  Slope: -81.0 Left: 7328.0 Inter: 7247.0 Inter: 7166.0 Right: 7085.0
@@ -23227,10 +23227,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 2384 , End at: 2388 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 59.8333333333 Left: 3231.0 Inter: 3290.83333333 Inter: 3350.66666667 Inter: 3410.5 Inter: 3470.33333333 Inter: 3530.16666667 Right: 3590.0
 Gap point:  Slope: -114.333333333 Left: 4722.0 Inter: 4607.66666667 Inter: 4493.33333333 Inter: 4379.0 Inter: 4264.66666667 Inter: 4150.33333333 Right: 4036.0
 Gap point:  Slope: -32.6666666667 Left: 7394.0 Inter: 7361.33333333 Inter: 7328.66666667 Inter: 7296.0 Inter: 7263.33333333 Inter: 7230.66666667 Right: 7198.0
@@ -23732,10 +23732,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Int
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 2862 , End at: 2864 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 838.25 Left: 0.0 Inter: 838.25 Inter: 1676.5 Inter: 2514.75 Right: 3353.0
 Gap point:  Slope: -17.25 Left: 3858.0 Inter: 3840.75 Inter: 3823.5 Inter: 3806.25 Right: 3789.0
 Gap point:  Slope: -65.75 Left: 5974.0 Inter: 5908.25 Inter: 5842.5 Inter: 5776.75 Right: 5711.0
@@ -24237,10 +24237,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 2930 , End at: 2940 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: -37.4166666667 Left: 3596.0 Inter: 3558.58333333 Inter: 3521.16666667 Inter: 3483.75 Inter: 3446.33333333 Inter: 3408.91666667 Inter: 3371.5 Inter: 3334.08333333 Inter: 3296.66666667 Inter: 3259.25 Inter: 3221.83333333 Inter: 3184.41666667 Right: 3147.0
 Gap point:  Slope: -44.5 Left: 6159.0 Inter: 6114.5 Inter: 6070.0 Inter: 6025.5 Inter: 5981.0 Inter: 5936.5 Inter: 5892.0 Inter: 5847.5 Inter: 5803.0 Inter: 5758.5 Inter: 5714.0 Inter: 5669.5 Right: 5625.0
@@ -24742,10 +24742,10 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Int
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 17.1666666667 Left: 0.0 Inter: 17.1666666667 Inter: 34.3333333333 Inter: 51.5 Inter: 68.6666666667 Inter: 85.8333333333 Inter: 103.0 Inter: 120.166666667 Inter: 137.333333333 Inter: 154.5 Inter: 171.666666667 Inter: 188.833333333 Right: 206.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
-----------------------------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 Gaps founded, Start at: 3027 , End at: 3030 .
-The details of artificial values of masspectrum for each gap time point in the gaps:
+The details of artificial values of masspectrum:
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 109.0 Left: 3096.0 Inter: 3205.0 Inter: 3314.0 Inter: 3423.0 Inter: 3532.0 Right: 3641.0
 Gap point:  Slope: 199.8 Left: 4975.0 Inter: 5174.8 Inter: 5374.6 Inter: 5574.4 Inter: 5774.2 Right: 5974.0
@@ -25247,4 +25247,4 @@ Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Rig
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
 Gap point:  Slope: 0.0 Left: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Inter: 0.0 Right: 0.0
-----------------------------------------------------------------
+-----------------------------------------------
