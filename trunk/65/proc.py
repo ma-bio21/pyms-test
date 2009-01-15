@@ -22,6 +22,6 @@ a1 = Alignment(data1)
 a2 = Alignment(data2)
 Gw =0.30
 
-fma(a1, a2, Gw)
+T = fma(a1, a2, Gw)
 
 print "All done"
