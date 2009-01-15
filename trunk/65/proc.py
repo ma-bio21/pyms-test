@@ -12,11 +12,11 @@ andi_file1 = "/x/proj.archive/proj/PyMS/data/a0806_077.CDF"
 andi_file2 = "/x/proj.archive/proj/PyMS/data/a0806_140.CDF"
 
 # import the GC-MS data
-andi_data1 = ChemStation(andi_file1)
-andi_data2 = ChemStation(andi_file2)
+data1 = ChemStation(andi_file1)
+data2 = ChemStation(andi_file2)
 
 Gw =0.30
 
-fma(andi_data1, andi_data2, Gw)
+fma(data1, data2, Gw)
 
 print "All done"
