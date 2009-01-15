@@ -18,10 +18,15 @@ andi_file2 = "/x/proj.archive/proj/PyMS/data/a0806_140.CDF"
 # import the GC-MS data
 data1 = ChemStation(andi_file1)
 data2 = ChemStation(andi_file2)
+
+# create alignment objects
 a1 = Alignment(data1)
 a2 = Alignment(data2)
+
+# alignment gap penalty
 Gw =0.30
 
+# execute full matrix alignment
 T = fma(a1, a2, Gw)
 
 print "All done"
