@@ -39,12 +39,17 @@ Data pre processing
 Peak detection
 --------------
 
-30/ -- Demonstrates simple 'minmax' peak detector for TIC
+30/ -- Demonstrates 'minmax' peak detector for TIC
+
+Mass-spectral libraries
+-----------------------
+
+41/ -- Reading of the mass spectral library in JCAMP format
 
 Simulator
 ---------
 
-50/ -- GC-MS data simulator
+51/ -- GC-MS data simulator
 
 Peak alignment examples
 -----------------------
