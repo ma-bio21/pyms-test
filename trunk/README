@@ -34,12 +34,15 @@ Data pre processing
 
 12/ -- Noise filtering with Savitzky-Golay filter
 
+Beseline correction
+-------------------
+
 21/ -- Top hat baseline correction
 
 Peak detection
 --------------
 
-30/ -- Demonstrates 'minmax' peak detector for TIC
+30/ -- 'Minmax' peak detector for TIC
 
 Mass-spectral libraries
 -----------------------
@@ -66,4 +69,10 @@ Peak alignment examples
 63/ -- Example of within-state and between-state peak alignment by dynamic
     programming. The experiments prepared in examples 04/ and 04a/ are
     aligned
+
+MS libraries
+-------------
+
+71/ -- Reading mass spectral library in JCAMP format
+
 
