@@ -13,3 +13,6 @@ print "Loading start at:", time.localtime()
 ms_lib = MSLib(ms_lib_file)
 print "Loading end at:", time.localtime()
 
+# print first 10 records from the library
+ms_lib.printl(begin=1,end=10)
+
