@@ -1,0 +1,2991 @@
+##TITLE=Library Entry 22 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 37883, Seq# M407
+##NAMES=YYYY 2008
+##CAS NAME=Formaldehyde
+##MOLFORM=CH2O
+##CAS REGISTRY NO=000050-00-0
+##MP= -300
+##BP= -300
+##MW= 30.011
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 8
+##XYDATA=(XY..XY)
+    12        100
+    13        100
+    14        100
+    15        200
+    28       2400
+    29       9999
+    30       5800
+    31         50
+##TITLE=Library Entry 23 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18829, Seq# R145
+##NAMES=YYYY 2008
+##CAS NAME=Formaldehyde
+##MOLFORM=CH2O
+##CAS REGISTRY NO=000050-00-0
+##MP= -300
+##BP= -300
+##MW= 30.011
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 6
+##XYDATA=(XY..XY)
+    15         60
+    27         30
+    28       3300
+    29       9999
+    30       6600
+    31        300
+##TITLE=Library Entry 24 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 151954, Seq# R146
+##NAMES=YYYY 2008
+##CAS NAME=Formaldehyde
+##MOLFORM=CH2O
+##CAS REGISTRY NO=000050-00-0
+##MP= -300
+##BP= -300
+##MW= 30.011
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 8
+##XYDATA=(XY..XY)
+    26         50
+    27         70
+    28       2590
+    29       9999
+    30       7180
+    31        670
+    32         50
+    33         20
+##TITLE=Library Entry 25 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 31, Seq# M792
+##NAMES=YYYY 2008
+##CAS NAME=Nitric oxide
+##MOLFORM=NO
+##CAS REGISTRY NO=010102-43-9
+##MP= -300
+##BP= -300
+##MW= 29.998
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 6
+##XYDATA=(XY..XY)
+    14        750
+    15        240
+    16        150
+    30       9999
+    31         40
+    32         20
+##TITLE=Library Entry 26 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 61307, Seq# R295
+##NAMES=YYYY 2008
+##CAS NAME=Nitric oxide
+##MOLFORM=NO
+##CAS REGISTRY NO=010102-43-9
+##MP= -300
+##BP= -300
+##MW= 29.998
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 4
+##XYDATA=(XY..XY)
+    14       1090
+    16        250
+    30       9999
+    31         40
+##TITLE=Library Entry 27 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 228024, Seq# M845
+##NAMES=YYYY 2008
+##CAS NAME=Methylamine
+##MOLFORM=CH5N
+##CAS REGISTRY NO=000074-89-5
+##MP= -300
+##BP= -300
+##MW= 31.042
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 13
+##XYDATA=(XY..XY)
+    13         20
+    14         40
+    15        400
+    16         40
+    17         80
+    18        110
+    26         90
+    27        820
+    28       5380
+    29       1230
+    30       9999
+    31       6550
+    32         90
+##TITLE=Library Entry 28 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 120819, Seq# R302
+##NAMES=YYYY 2008
+##CAS NAME=Methylamine
+##MOLFORM=CH5N
+##CAS REGISTRY NO=000074-89-5
+##MP= -300
+##BP= -300
+##MW= 31.042
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 7
+##XYDATA=(XY..XY)
+    26        180
+    27       1600
+    28       8860
+    29       1650
+    30       9999
+    31       5650
+    32        110
+##TITLE=Library Entry 29 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 229809, Seq# M1342
+##NAMES=YYYY 2008
+##CAS NAME=Methyl Alcohol
+##MOLFORM=CH4O
+##CAS REGISTRY NO=000067-56-1
+##MP= -300
+##BP= -300
+##MW= 32.026
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 16
+##XYDATA=(XY..XY)
+     2         30
+    12         20
+    13         60
+    14        160
+    15       1230
+    16         10
+    17         30
+    18         70
+    19         10
+    28        450
+    29       4450
+    30        640
+    31       9999
+    32       7430
+    33        110
+    34         10
+##TITLE=Library Entry 30 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 61305, Seq# R548
+##NAMES=YYYY 2008
+##CAS NAME=Methyl Alcohol
+##MOLFORM=CH4O
+##CAS REGISTRY NO=000067-56-1
+##MP= -300
+##BP= -300
+##MW= 32.026
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 13
+##XYDATA=(XY..XY)
+     2        240
+    12        300
+    13        550
+    14        990
+    15       4150
+    16        160
+    27         40
+    28       1220
+    29       7190
+    30        880
+    31       9999
+    32       6700
+    33         90
+##TITLE=Library Entry 31 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18836, Seq# R559
+##NAMES=YYYY 2008
+##CAS NAME=Methyl Alcohol
+##MOLFORM=CH4O
+##CAS REGISTRY NO=000067-56-1
+##MP= -300
+##BP= -300
+##MW= 32.026
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 16
+##XYDATA=(XY..XY)
+    12         40
+    13         60
+    14        220
+    15       1340
+    16         20
+    17        100
+    18        410
+    19         20
+    27         10
+    28        390
+    29       3060
+    30        620
+    31       9999
+    32       7370
+    33        190
+    34         20
+##TITLE=Library Entry 32 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 38, Seq# M1453
+##NAMES=YYYY 2008
+##CAS NAME=Hydrazine
+##MOLFORM=H4N2
+##CAS REGISTRY NO=000302-01-2
+##MP= -300
+##BP= -300
+##MW= 32.037
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 11
+##XYDATA=(XY..XY)
+    14        490
+    15        810
+    16       2920
+    17       2610
+    27         30
+    28       2140
+    29       4010
+    30       3130
+    31       4730
+    32       9999
+    33         90
+##TITLE=Library Entry 33 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18842, Seq# R611
+##NAMES=YYYY 2008
+##CAS NAME=Hydrazine
+##MOLFORM=H4N2
+##CAS REGISTRY NO=000302-01-2
+##MP= -300
+##BP= -300
+##MW= 32.037
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 11
+##XYDATA=(XY..XY)
+     2        170
+    14        360
+    15        690
+    16       3210
+    17       3740
+    28       1510
+    29       3690
+    30       3170
+    31       4920
+    32       9999
+    33         90
+##TITLE=Library Entry 34 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 39, Seq# M846
+##NAMES=YYYY 2008
+##CAS NAME=Silane
+##MOLFORM=H4Si
+##CAS REGISTRY NO=007803-62-5
+##MP= -300
+##BP= -300
+##MW= 32.008
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 9
+##XYDATA=(XY..XY)
+     2        150
+    14         80
+    28       2750
+    29       2870
+    30       9999
+    31       7900
+    32        710
+    33        240
+    34         10
+##TITLE=Library Entry 35 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 61304, Seq# R326
+##NAMES=YYYY 2008
+##CAS NAME=Silane
+##MOLFORM=H4Si
+##CAS REGISTRY NO=007803-62-5
+##MP= -300
+##BP= -300
+##MW= 32.008
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 6
+##XYDATA=(XY..XY)
+    28       2660
+    29       2880
+    30       9999
+    31       7810
+    32        710
+    33        240
+##TITLE=Library Entry 36 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 61306, Seq# M1449
+##NAMES=YYYY 2008
+##CAS NAME=Oxygen
+##MOLFORM=O2
+##CAS REGISTRY NO=007782-44-7
+##MP= -300
+##BP= -300
+##MW= 31.99
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 2
+##XYDATA=(XY..XY)
+    16       2180
+    32       9999
+##TITLE=Library Entry 37 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 228320, Seq# M1478
+##NAMES=YYYY 2008
+##CAS NAME=Hydroxylamine
+##MOLFORM=H3NO
+##CAS REGISTRY NO=007803-49-8
+##MP= -300
+##BP= -300
+##MW= 33.021
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 14
+##XYDATA=(XY..XY)
+    14         40
+    15        140
+    16       2510
+    17        640
+    18        520
+    19         20
+    27         20
+    28        250
+    29         10
+    30       1090
+    31        630
+    32       1860
+    33       9999
+    34         50
+##TITLE=Library Entry 38 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 229321, Seq# R627
+##NAMES=YYYY 2008
+##CAS NAME=Hydroxylamine
+##MOLFORM=H3NO
+##CAS REGISTRY NO=007803-49-8
+##MP= -300
+##BP= -300
+##MW= 33.021
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 16
+##XYDATA=(XY..XY)
+    12         80
+    14         40
+    15        150
+    16       2540
+    17        780
+    18       1900
+    19         80
+    27         40
+    28       1630
+    29       1790
+    30       1230
+    31        640
+    32       1870
+    33       9999
+    34         50
+    35         20
+##TITLE=Library Entry 39 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 41, Seq# M1487
+##NAMES=YYYY 2008
+##CAS NAME=Methyl fluoride
+##MOLFORM=CH3F
+##CAS REGISTRY NO=000593-53-3
+##MP= -300
+##BP= -300
+##MW= 34.022
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 9
+##XYDATA=(XY..XY)
+    12         50
+    13        120
+    14        310
+    15       1160
+    31        770
+    32        440
+    33       8880
+    34       9999
+    35        120
+##TITLE=Library Entry 40 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 43, Seq# M1486
+##NAMES=YYYY 2008
+##CAS NAME=Hydrogen sulfide
+##MOLFORM=H2S
+##CAS REGISTRY NO=007783-06-4
+##MP= -300
+##BP= -300
+##MW= 33.988
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 5
+##XYDATA=(XY..XY)
+    32       4440
+    33       4200
+    34       9999
+    35        250
+    36        420
+##TITLE=Library Entry 41 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 42, Seq# M1488
+##NAMES=YYYY 2008
+##CAS NAME=Phosphine
+##MOLFORM=H3P
+##CAS REGISTRY NO=007803-51-2
+##MP= -300
+##BP= -300
+##MW= 33.997
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 6
+##XYDATA=(XY..XY)
+    16         50
+    17         30
+    31       3210
+    32       1270
+    33       3310
+    34       9999
+##TITLE=Library Entry 42 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 37, Seq# M1480
+##NAMES=YYYY 2008
+##CAS NAME=Methan-d3-ol
+##MOLFORM=CHD3O
+##CAS REGISTRY NO=001849-29-2
+##MP= -300
+##BP= -300
+##MW= 35.045
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 16
+##XYDATA=(XY..XY)
+    12         50
+    14        110
+    15         40
+    16        330
+    17        180
+    18       2610
+    28        410
+    29        670
+    30       3960
+    31        430
+    32        500
+    33       9999
+    34       1060
+    35       7160
+    36        280
+    37        140
+##TITLE=Library Entry 43 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 159615, Seq# R628
+##NAMES=YYYY 2008
+##CAS NAME=Methan-d3-ol
+##MOLFORM=CHD3O
+##CAS REGISTRY NO=001849-29-2
+##MP= -300
+##BP= -300
+##MW= 35.045
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 10
+##XYDATA=(XY..XY)
+    26          5
+    27         20
+    29        480
+    30       4630
+    31        260
+    33       9999
+    34        940
+    35       6880
+    36        320
+    37         10
+##TITLE=Library Entry 44 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 236257, Seq# M1489
+##NAMES=YYYY 2008
+##CAS NAME=Methanol-D4
+##MOLFORM=CD4O
+##CAS REGISTRY NO=000811-98-3
+##MP= -300
+##BP= -300
+##MW= 36.051
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 14
+##XYDATA=(XY..XY)
+    12         70
+    14        140
+    16        450
+    18       2990
+    28        670
+    29         10
+    30       5060
+    31         50
+    32        570
+    33         10
+    34       9999
+    35        110
+    36       7050
+    37         80
+##TITLE=Library Entry 45 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18847, Seq# M1496
+##NAMES=YYYY 2008
+##CAS NAME=Hydrogen chloride
+##MOLFORM=ClH
+##CAS REGISTRY NO=007647-01-0
+##MP= -300
+##BP= -300
+##MW= 35.977
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 4
+##XYDATA=(XY..XY)
+    35       1700
+    36       9999
+    37        540
+    38       3240
+##TITLE=Library Entry 46 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 44, Seq# R634
+##NAMES=YYYY 2008
+##CAS NAME=Hydrogen chloride
+##MOLFORM=ClH
+##CAS REGISTRY NO=007647-01-0
+##MP= -300
+##BP= -300
+##MW= 35.977
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 4
+##XYDATA=(XY..XY)
+    35       1230
+    36       9999
+    37        410
+    38       3290
+##TITLE=Library Entry 47 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 34321, Seq# M1794
+##NAMES=YYYY 2008
+##CAS NAME=Argon
+##MOLFORM=Ar
+##CAS REGISTRY NO=007440-37-1
+##MP= -300
+##BP= -300
+##MW= 39.962
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 4
+##XYDATA=(XY..XY)
+    20       1460
+    36         30
+    38          5
+    40       9999
+##TITLE=Library Entry 48 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 45, Seq# M1796
+##NAMES=YYYY 2008
+##CAS NAME=Allene
+##MOLFORM=C3H4
+##CAS REGISTRY NO=000463-49-0
+##MP= -300
+##BP= -300
+##MW= 40.031
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 17
+##XYDATA=(XY..XY)
+    12        410
+    13        340
+    14        400
+    15         30
+    19        310
+    20        380
+    24        270
+    25        460
+    26        480
+    27         70
+    36        940
+    37       3260
+    38       4050
+    39       9620
+    40       9999
+    41        330
+    42         10
+##TITLE=Library Entry 49 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18849, Seq# M1797
+##NAMES=YYYY 2008
+##CAS NAME=Propyne
+##MOLFORM=C3H4
+##CAS REGISTRY NO=000074-99-7
+##MP= -300
+##BP= -300
+##MW= 40.031
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 14
+##XYDATA=(XY..XY)
+    12        170
+    13        170
+    14        120
+    15        110
+    24        110
+    25        250
+    26        250
+    36        530
+    37       1980
+    38       2850
+    39       7910
+    40       9999
+    41        350
+    42         20
+##TITLE=Library Entry 50 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 194058, Seq# M1523
+##NAMES=YYYY 2008
+##CAS NAME=Cyclopropene
+##MOLFORM=C3H4
+##CAS REGISTRY NO=002781-85-3
+##MP= -300
+##BP= -300
+##MW= 40.031
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 14
+##XYDATA=(XY..XY)
+    24        210
+    25        290
+    26        670
+    27        540
+    29        510
+    30         70
+    36        490
+    37       2760
+    38       4660
+    39       9999
+    40       6860
+    41       1030
+    42        650
+    43         50
+##TITLE=Library Entry 51 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 228221, Seq# M2077
+##NAMES=YYYY 2008
+##CAS NAME=Acetonitrile
+##MOLFORM=C2H3N
+##CAS REGISTRY NO=000075-05-8
+##MP= -300
+##BP= -300
+##MW= 41.027
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 14
+##XYDATA=(XY..XY)
+    12        140
+    13         90
+    14        540
+    15        100
+    24         70
+    25        120
+    26        150
+    27         90
+    28        210
+    38        920
+    39       1760
+    40       5030
+    41       9999
+    42        260
+##TITLE=Library Entry 52 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18850, Seq# R786
+##NAMES=YYYY 2008
+##CAS NAME=Acetonitrile
+##MOLFORM=C2H3N
+##CAS REGISTRY NO=000075-05-8
+##MP= -300
+##BP= -300
+##MW= 41.027
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 14
+##XYDATA=(XY..XY)
+    12        220
+    13        160
+    14        870
+    15        160
+    24         80
+    25        260
+    26        370
+    27        230
+    28        400
+    38        590
+    39       1320
+    40       4550
+    41       9999
+    42        150
+##TITLE=Library Entry 53 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 290896, Seq# R787
+##NAMES=YYYY 2008
+##CAS NAME=Acetonitrile
+##MOLFORM=C2H3N
+##CAS REGISTRY NO=000075-05-8
+##MP= -300
+##BP= -300
+##MW= 41.027
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 15
+##XYDATA=(XY..XY)
+    12         50
+    13         40
+    14        170
+    15         40
+    24         70
+    25        160
+    26        250
+    27        140
+    28        200
+    38       1380
+    39       2230
+    40       5620
+    41       9999
+    42        340
+    43         10
+##TITLE=Library Entry 54 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 47, Seq# M2078
+##NAMES=YYYY 2008
+##CAS NAME=Methyl isocyanide
+##MOLFORM=C2H3N
+##CAS REGISTRY NO=000593-75-9
+##MP= -300
+##BP= -300
+##MW= 41.027
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 9
+##XYDATA=(XY..XY)
+    15        800
+    26        200
+    27        400
+    28        800
+    38       1300
+    39       2000
+    40       4900
+    41       9999
+    42        300
+##TITLE=Library Entry 55 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 55, Seq# M5
+##NAMES=YYYY 2008
+##CAS NAME=Ketene
+##MOLFORM=C2H2O
+##CAS REGISTRY NO=000463-51-4
+##MP= -300
+##BP= -300
+##MW= 42.011
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 19
+##XYDATA=(XY..XY)
+    12       1250
+    13       1310
+    14       9999
+    15        120
+    16        100
+    20         10
+    21        180
+    24        440
+    25        580
+    26        160
+    27         10
+    28       1130
+    29        680
+    30         10
+    40        510
+    41       2650
+    42       9390
+    43        210
+    44         10
+##TITLE=Library Entry 56 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 50, Seq# M1934
+##NAMES=YYYY 2008
+##CAS NAME=Propene
+##MOLFORM=C3H6
+##CAS REGISTRY NO=000115-07-1
+##MP= -300
+##BP= -300
+##MW= 42.047
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 24
+##XYDATA=(XY..XY)
+     1        320
+     2         40
+    12         90
+    13        140
+    14        340
+    15        550
+    16         20
+    19        220
+    20        180
+    21         10
+    24         30
+    25        180
+    26       1050
+    27       3870
+    28        140
+    36        180
+    37       1270
+    38       1940
+    39       7250
+    40       2910
+    41       9999
+    42       7030
+    43        230
+    44         10
+##TITLE=Library Entry 57 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 61300, Seq# R745
+##NAMES=YYYY 2008
+##CAS NAME=Propene
+##MOLFORM=C3H6
+##CAS REGISTRY NO=000115-07-1
+##MP= -300
+##BP= -300
+##MW= 42.047
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 16
+##XYDATA=(XY..XY)
+     2        160
+    12        200
+    13        290
+    14        570
+    15        760
+    16          5
+    20        210
+    25        330
+    26       1390
+    27       4170
+    28        160
+    39       7730
+    40       2920
+    41       9999
+    42       6630
+    43        230
+##TITLE=Library Entry 58 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18855, Seq# M4140
+##NAMES=YYYY 2008
+##CAS NAME=Cyclopropane
+##MOLFORM=C3H6
+##CAS REGISTRY NO=000075-19-4
+##MP= -300
+##BP= -300
+##MW= 42.047
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 24
+##XYDATA=(XY..XY)
+     2         20
+    12        100
+    13        190
+    14        600
+    15        540
+    16         20
+    19        230
+    20        190
+    21         10
+    24         30
+    25        180
+    26       1270
+    27       3500
+    28        250
+    29         10
+    36        150
+    37        990
+    38       1440
+    39       6720
+    40       3140
+    41       8870
+    42       9999
+    43        330
+    44         10
+##TITLE=Library Entry 59 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18854, Seq# R1331
+##NAMES=YYYY 2008
+##CAS NAME=Cyclopropane
+##MOLFORM=C3H6
+##CAS REGISTRY NO=000075-19-4
+##MP= -300
+##BP= -300
+##MW= 42.047
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 18
+##XYDATA=(XY..XY)
+    12        190
+    13        300
+    14        760
+    15        570
+    24         70
+    25        270
+    26       1480
+    27       3840
+    28        300
+    29         10
+    36        210
+    37       1150
+    38       1550
+    39       7130
+    40       3290
+    41       9120
+    42       9999
+    43        330
+##TITLE=Library Entry 60 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 61299, Seq# R1332
+##NAMES=YYYY 2008
+##CAS NAME=Cyclopropane
+##MOLFORM=C3H6
+##CAS REGISTRY NO=000075-19-4
+##MP= -300
+##BP= -300
+##MW= 42.047
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 17
+##XYDATA=(XY..XY)
+     2        100
+    12        240
+    13        440
+    14       1100
+    15        720
+    16         20
+    20        230
+    25        370
+    26       1830
+    27       4210
+    28        470
+    29         50
+    39       7570
+    40       3280
+    41       9300
+    42       9999
+    43        430
+##TITLE=Library Entry 61 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 305841, Seq# M3, CAS number = 10^9 + YYYY MS#
+##NAMES=YYYY 2008
+##CAS NAME=Diazirine
+##MOLFORM=CH2N2
+##CAS REGISTRY NO=1000305-84-1
+##MP= -300
+##BP= -300
+##MW= 42.022
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 12
+##XYDATA=(XY..XY)
+    12       1080
+    13       2290
+    14       9999
+    15        220
+    26        180
+    27        580
+    28       1780
+    29        230
+    40        180
+    41       1080
+    42       4310
+    43         80
+##TITLE=Library Entry 62 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 238424, Seq# M4094
+##NAMES=YYYY 2008
+##CAS NAME=Cyanamide
+##MOLFORM=CH2N2
+##CAS REGISTRY NO=000420-04-2
+##MP= -300
+##BP= -300
+##MW= 42.022
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 17
+##XYDATA=(XY..XY)
+    12        100
+    13        490
+    14        160
+    15         70
+    16        410
+    17         30
+    26        290
+    27        460
+    28       2010
+    29        250
+    30         10
+    40        180
+    41       1570
+    42       9999
+    43       1100
+    44        410
+    45         30
+##TITLE=Library Entry 63 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 57, Seq# M4
+##NAMES=YYYY 2008
+##CAS NAME=Methane, diazo-
+##MOLFORM=CH2N2
+##CAS REGISTRY NO=000334-88-3
+##MP= -300
+##BP= -300
+##MW= 42.022
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 12
+##XYDATA=(XY..XY)
+    12       1100
+    13       2200
+    14       9999
+    15        250
+    26        120
+    27        580
+    28       1790
+    29        200
+    40        220
+    41       1100
+    42       4250
+    43        110
+##TITLE=Library Entry 64 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 56, Seq# M1804
+##NAMES=YYYY 2008
+##CAS NAME=Borane carbonyl
+##MOLFORM=CH3BO
+##CAS REGISTRY NO=013205-44-2
+##MP= -300
+##BP= -300
+##MW= 42.028
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 25
+##XYDATA=(XY..XY)
+    10       1030
+    11       5220
+    12       6720
+    13       6540
+    14        160
+    15        230
+    16        110
+    20        170
+    21        100
+    22        590
+    23       2310
+    24       4050
+    25       2410
+    26       4150
+    27       3970
+    28       2150
+    29        810
+    30         50
+    39       2160
+    40       9999
+    41       6820
+    42       3600
+    43        310
+    44         30
+    45         10
+##TITLE=Library Entry 65 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18859, Seq# M4096
+##NAMES=YYYY 2008
+##CAS NAME=Ethylenimine
+##MOLFORM=C2H5N
+##CAS REGISTRY NO=000151-56-4
+##MP= -300
+##BP= -300
+##MW= 43.042
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 22
+##XYDATA=(XY..XY)
+    12        190
+    13        380
+    14       1040
+    15       3530
+    16        170
+    17        120
+    18         50
+    21        140
+    24         40
+    25        210
+    26        760
+    27       1230
+    28       7980
+    29        260
+    30         90
+    38        540
+    39        740
+    40       1810
+    41       2610
+    42       9999
+    43       5990
+    44        240
+##TITLE=Library Entry 66 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 58, Seq# R1312
+##NAMES=YYYY 2008
+##CAS NAME=Ethylenimine
+##MOLFORM=C2H5N
+##CAS REGISTRY NO=000151-56-4
+##MP= -300
+##BP= -300
+##MW= 43.042
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 26
+##XYDATA=(XY..XY)
+     2         70
+    12        390
+    13        620
+    14       1400
+    15       3590
+    16        140
+    17         90
+    18         30
+    21        160
+    24         60
+    25        240
+    26        690
+    27       1010
+    28       7930
+    29        200
+    30         60
+    31         10
+    32         10
+    38        480
+    39        570
+    40       1480
+    41       2050
+    42       9999
+    43       5540
+    44        140
+    45         10
+##TITLE=Library Entry 67 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 283438, Seq# R1313
+##NAMES=YYYY 2008
+##CAS NAME=Ethylenimine
+##MOLFORM=C2H5N
+##CAS REGISTRY NO=000151-56-4
+##MP= -300
+##BP= -300
+##MW= 43.042
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 12
+##XYDATA=(XY..XY)
+    15       1290
+    16         80
+    26        350
+    27        490
+    28       6550
+    29        410
+    39        290
+    40       1090
+    41       1530
+    42       9999
+    43       4900
+    44        210
+##TITLE=Library Entry 68 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18861, Seq# R1354
+##NAMES=YYYY 2008
+##CAS NAME=Ethylenimine
+##MOLFORM=C2H5N
+##CAS REGISTRY NO=000151-56-4
+##MP= -300
+##BP= -300
+##MW= 43.042
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 12
+##XYDATA=(XY..XY)
+    14        400
+    15       2100
+    26        300
+    27        600
+    28       5900
+    38        400
+    39        500
+    40       1400
+    41       2000
+    42       9999
+    43       6100
+    44        100
+##TITLE=Library Entry 69 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 60, Seq# M5104
+##NAMES=YYYY 2008
+##CAS NAME=Hydrogen azide
+##MOLFORM=HN3
+##CAS REGISTRY NO=007782-79-8
+##MP= -300
+##BP= -300
+##MW= 43.017
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 10
+##XYDATA=(XY..XY)
+    14       2530
+    15       4770
+    16        150
+    28       2820
+    29       1700
+    30         40
+    42        820
+    43       9999
+    44        310
+    45         10
+##TITLE=Library Entry 70 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 227634, Seq# M485
+##NAMES=YYYY 2008
+##CAS NAME=Acetaldehyde
+##MOLFORM=C2H4O
+##CAS REGISTRY NO=000075-07-0
+##MP= -300
+##BP= -300
+##MW= 44.026
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 23
+##XYDATA=(XY..XY)
+    12         90
+    13        290
+    14       1080
+    15       3640
+    16        560
+    17         30
+    18        100
+    19         10
+    21         10
+    24         70
+    25        230
+    26        540
+    27        350
+    28        320
+    29       9999
+    30        110
+    31         30
+    40        100
+    41        500
+    42       1270
+    43       4740
+    44       8250
+    45        270
+##TITLE=Library Entry 71 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18870, Seq# R180
+##NAMES=YYYY 2008
+##CAS NAME=Acetaldehyde
+##MOLFORM=C2H4O
+##CAS REGISTRY NO=000075-07-0
+##MP= -300
+##BP= -300
+##MW= 44.026
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 23
+##XYDATA=(XY..XY)
+    12        110
+    13        320
+    14       1000
+    15       3200
+    16        460
+    17         10
+    21         10
+    24         80
+    25        260
+    26        540
+    27        320
+    28        420
+    29       9999
+    30        120
+    31         30
+    32         20
+    40        110
+    41        470
+    42       1210
+    43       4220
+    44       7660
+    45        250
+    46         20
+##TITLE=Library Entry 72 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18867, Seq# M337
+##NAMES=YYYY 2008
+##CAS NAME=Ethylene oxide
+##MOLFORM=C2H4O
+##CAS REGISTRY NO=000075-21-8
+##MP= -300
+##BP= -300
+##MW= 44.026
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 24
+##XYDATA=(XY..XY)
+    12        380
+    13        790
+    14       2590
+    15       6520
+    16        830
+    17         40
+    18         20
+    24        140
+    25        480
+    26       1390
+    27        430
+    28        650
+    29       9999
+    30        200
+    31        110
+    38         10
+    39         30
+    40         50
+    41        180
+    42       1190
+    43       1560
+    44       6520
+    45        210
+    46         50
+##TITLE=Library Entry 73 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 61296, Seq# R111
+##NAMES=YYYY 2008
+##CAS NAME=Ethylene oxide
+##MOLFORM=C2H4O
+##CAS REGISTRY NO=000075-21-8
+##MP= -300
+##BP= -300
+##MW= 44.026
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 20
+##XYDATA=(XY..XY)
+    12        430
+    13        880
+    14       2690
+    15       5960
+    16        800
+    24        100
+    25        370
+    26        630
+    27        450
+    28        500
+    29       9999
+    30        200
+    31        100
+    40         30
+    41        130
+    42       1130
+    43       1460
+    44       5460
+    45        140
+    46          5
+##TITLE=Library Entry 74 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18868, Seq# R178
+##NAMES=YYYY 2008
+##CAS NAME=Ethylene oxide
+##MOLFORM=C2H4O
+##CAS REGISTRY NO=000075-21-8
+##MP= -300
+##BP= -300
+##MW= 44.026
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 24
+##XYDATA=(XY..XY)
+    12        180
+    13        510
+    14       2090
+    15       5500
+    16        750
+    17         30
+    18         20
+    19          5
+    21         10
+    24         70
+    25        360
+    26        670
+    27        460
+    28        850
+    29       9999
+    30        290
+    31        120
+    40         40
+    41        130
+    42       1670
+    43       2320
+    44       7850
+    45        280
+    46         50
+##TITLE=Library Entry 75 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 298804, Seq# M13761
+##NAMES=YYYY 2008
+##CAS NAME=Ethyne, fluoro-
+##MOLFORM=C2HF
+##CAS REGISTRY NO=002713-09-9
+##MP= -300
+##BP= -300
+##MW= 44.006
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 9
+##XYDATA=(XY..XY)
+    12         70
+    13         80
+    22         70
+    24        190
+    25        750
+    31       1570
+    43       1000
+    44       9999
+    45        240
+##TITLE=Library Entry 76 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18872, Seq# R3195
+##NAMES=YYYY 2008
+##CAS NAME=Ethyne, fluoro-
+##MOLFORM=C2HF
+##CAS REGISTRY NO=002713-09-9
+##MP= -300
+##BP= -300
+##MW= 44.006
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 14
+##XYDATA=(XY..XY)
+    12        300
+    13        690
+    19         50
+    20         20
+    22         80
+    24        560
+    25       1680
+    26         60
+    31       2420
+    32        150
+    43       1280
+    44       9999
+    45        230
+    46         10
+##TITLE=Library Entry 77 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18863, Seq# M399
+##NAMES=YYYY 2008
+##CAS NAME=Propane
+##MOLFORM=C3H8
+##CAS REGISTRY NO=000074-98-6
+##MP= -300
+##BP= -300
+##MW= 44.063
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 25
+##XYDATA=(XY..XY)
+    12         30
+    13         60
+    14        220
+    15        720
+    16         40
+    19         70
+    20         80
+    21         10
+    24         10
+    25         50
+    26        910
+    27       4190
+    28       5870
+    29       9999
+    30        220
+    36         30
+    37        300
+    38        530
+    39       1890
+    40        280
+    41       1340
+    42        600
+    43       2310
+    44       2740
+    45         90
+##TITLE=Library Entry 78 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 61, Seq# R139
+##NAMES=YYYY 2008
+##CAS NAME=Propane
+##MOLFORM=C3H8
+##CAS REGISTRY NO=000074-98-6
+##MP= -300
+##BP= -300
+##MW= 44.063
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 27
+##XYDATA=(XY..XY)
+     1        140
+     2         10
+    12         20
+    13         50
+    14        180
+    15        590
+    16         20
+    19         60
+    20         80
+    21         10
+    24         10
+    25         60
+    26        820
+    27       4030
+    28       5950
+    29       9999
+    30        220
+    36         30
+    37        260
+    38        470
+    39       1750
+    40        260
+    41       1290
+    42        590
+    43       2310
+    44       2920
+    45         90
+##TITLE=Library Entry 79 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 61297, Seq# R140
+##NAMES=YYYY 2008
+##CAS NAME=Propane
+##MOLFORM=C3H8
+##CAS REGISTRY NO=000074-98-6
+##MP= -300
+##BP= -300
+##MW= 44.063
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 21
+##XYDATA=(XY..XY)
+     2         80
+    12         60
+    13        130
+    14        370
+    15       1100
+    16         10
+    19        120
+    20        110
+    25        110
+    26       1200
+    27       4700
+    28       5900
+    29       9999
+    30        220
+    39       2130
+    40        300
+    41       1440
+    42        610
+    43       2320
+    44       2670
+    45         80
+##TITLE=Library Entry 80 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 69, Seq# M13702
+##NAMES=YYYY 2008
+##CAS NAME=Carbon dioxide
+##MOLFORM=CO2
+##CAS REGISTRY NO=000124-38-9
+##MP= -300
+##BP= -300
+##MW= 43.99
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 8
+##XYDATA=(XY..XY)
+    12        870
+    16        960
+    22        190
+    28        980
+    29         10
+    44       9999
+    45        120
+    46         40
+##TITLE=Library Entry 81 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18873, Seq# R3160
+##NAMES=YYYY 2008
+##CAS NAME=Carbon dioxide
+##MOLFORM=CO2
+##CAS REGISTRY NO=000124-38-9
+##MP= -300
+##BP= -300
+##MW= 43.99
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 7
+##XYDATA=(XY..XY)
+    16        560
+    22        140
+    23         10
+    28        670
+    29         10
+    44       9999
+    45        110
+##TITLE=Library Entry 82 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 70, Seq# M13731
+##NAMES=YYYY 2008
+##CAS NAME=Nitrous Oxide
+##MOLFORM=N2O
+##CAS REGISTRY NO=010024-97-2
+##MP= -300
+##BP= -300
+##MW= 44.001
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 9
+##XYDATA=(XY..XY)
+    14       1290
+    15         10
+    16        500
+    28       1080
+    29         10
+    30       3110
+    31         10
+    44       9999
+    45         70
+##TITLE=Library Entry 83 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 61295, Seq# R3180
+##NAMES=YYYY 2008
+##CAS NAME=Nitrous Oxide
+##MOLFORM=N2O
+##CAS REGISTRY NO=010024-97-2
+##MP= -300
+##BP= -300
+##MW= 44.001
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 6
+##XYDATA=(XY..XY)
+    14       1690
+    16        620
+    28       1420
+    30       3770
+    44       9999
+    45         70
+##TITLE=Library Entry 84 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 71, Seq# M817
+##NAMES=YYYY 2008
+##CAS NAME=Ethylamine
+##MOLFORM=C2H7N
+##CAS REGISTRY NO=000075-04-7
+##MP= -300
+##BP= -300
+##MW= 45.058
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 26
+##XYDATA=(XY..XY)
+    12        100
+    13        160
+    14        450
+    15       1030
+    16        150
+    18        340
+    19         10
+    21         20
+    24         30
+    25        100
+    26        530
+    27       1340
+    28       3170
+    29        750
+    30       9999
+    31        220
+    32         20
+    38        150
+    39        210
+    40        460
+    41        480
+    42        920
+    43        320
+    44       2010
+    45       1890
+    46         50
+##TITLE=Library Entry 85 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 228576, Seq# R404
+##NAMES=YYYY 2008
+##CAS NAME=Ethylamine
+##MOLFORM=C2H7N
+##CAS REGISTRY NO=000075-04-7
+##MP= -300
+##BP= -300
+##MW= 45.058
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 24
+##XYDATA=(XY..XY)
+    13         20
+    14         80
+    15        360
+    16         30
+    17         60
+    18        390
+    25         30
+    26        280
+    27        940
+    28       1580
+    29        370
+    30       9999
+    31        130
+    32         20
+    36         50
+    38        110
+    39        170
+    40        460
+    41        510
+    42       1190
+    43        400
+    44       3040
+    45       3470
+    46         90
+##TITLE=Library Entry 86 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 291481, Seq# M14028
+##NAMES=YYYY 2008
+##CAS NAME=Dimethylamine
+##MOLFORM=C2H7N
+##CAS REGISTRY NO=000124-40-3
+##MP= -300
+##BP= -300
+##MW= 45.058
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 18
+##XYDATA=(XY..XY)
+    13         10
+    14         60
+    15        220
+    16         10
+    26         20
+    27        280
+    28       3140
+    29         10
+    30        530
+    38        130
+    39        200
+    40        530
+    41        460
+    42       1890
+    43       1390
+    44       9999
+    45       6270
+    46        180
+##TITLE=Library Entry 87 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 158546, Seq# R3262
+##NAMES=YYYY 2008
+##CAS NAME=Dimethylamine
+##MOLFORM=C2H7N
+##CAS REGISTRY NO=000124-40-3
+##MP= -300
+##BP= -300
+##MW= 45.058
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 17
+##XYDATA=(XY..XY)
+    25          5
+    26         60
+    27        510
+    28       3570
+    29        280
+    30       1100
+    31        140
+    36         20
+    38        100
+    39        260
+    40        460
+    41        470
+    42       2310
+    43       1430
+    44       9999
+    45       5880
+    46        180
+##TITLE=Library Entry 88 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 229435, Seq# R3263
+##NAMES=YYYY 2008
+##CAS NAME=Dimethylamine
+##MOLFORM=C2H7N
+##CAS REGISTRY NO=000124-40-3
+##MP= -300
+##BP= -300
+##MW= 45.058
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 15
+##XYDATA=(XY..XY)
+    13         10
+    14         70
+    15        450
+    16         10
+    27        230
+    28       1820
+    29        110
+    30        240
+    40        270
+    41        260
+    42       1250
+    43       1130
+    44       9999
+    45       6360
+    46        300
+##TITLE=Library Entry 89 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 228023, Seq# M15140
+##NAMES=YYYY 2008
+##CAS NAME=Formamide
+##MOLFORM=CH3NO
+##CAS REGISTRY NO=000075-12-7
+##MP= -300
+##BP= -300
+##MW= 45.021
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 18
+##XYDATA=(XY..XY)
+    12         30
+    13         20
+    14         50
+    15        100
+    16       1210
+    17       3250
+    18        670
+    26        120
+    27        740
+    28        620
+    29       3420
+    30         60
+    42        180
+    43       1080
+    44       2480
+    45       9999
+    46        160
+    47         20
+##TITLE=Library Entry 90 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 149812, Seq# R3528
+##NAMES=YYYY 2008
+##CAS NAME=Formamide
+##MOLFORM=CH3NO
+##CAS REGISTRY NO=000075-12-7
+##MP= -300
+##BP= -300
+##MW= 45.021
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 16
+##XYDATA=(XY..XY)
+    26        200
+    27        930
+    28        890
+    29       4450
+    30        100
+    31         10
+    32          5
+    39          5
+    40          5
+    41         20
+    42        250
+    43       1310
+    44       2750
+    45       9999
+    46        250
+    47         20
+##TITLE=Library Entry 91 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 76, Seq# M954
+##NAMES=YYYY 2008
+##CAS NAME=Methane, nitroso-
+##MOLFORM=CH3NO
+##CAS REGISTRY NO=000865-40-7
+##MP= -300
+##BP= -300
+##MW= 45.021
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 16
+##XYDATA=(XY..XY)
+    13        300
+    14        800
+    15       3400
+    16        400
+    26        200
+    27       1300
+    28       2000
+    29        400
+    30       9999
+    31        100
+    42        500
+    43       1000
+    44        700
+    45       7000
+    46        800
+    47        100
+##TITLE=Library Entry 92 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 79, Seq# M16228
+##NAMES=YYYY 2008
+##CAS NAME=Ethene, fluoro-
+##MOLFORM=C2H3F
+##CAS REGISTRY NO=000075-02-5
+##MP= -300
+##BP= -300
+##MW= 46.022
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 22
+##XYDATA=(XY..XY)
+     2         50
+    12        660
+    13        840
+    14        690
+    15        130
+    19         90
+    20         30
+    21         10
+    24        520
+    25       1280
+    26       5920
+    27       5990
+    28        160
+    29         10
+    31       1190
+    32        450
+    33         50
+    43        130
+    44       3100
+    45       7110
+    46       9999
+    47        290
+##TITLE=Library Entry 93 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 118507, Seq# M1370
+##NAMES=YYYY 2008
+##CAS NAME=Ethanol
+##MOLFORM=C2H6O
+##CAS REGISTRY NO=000064-17-5
+##MP= -300
+##BP= -300
+##MW= 46.042
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 23
+##XYDATA=(XY..XY)
+    12         20
+    13        130
+    14        140
+    15        660
+    17         70
+    18         50
+    19        270
+    24         60
+    25        240
+    26        980
+    27       2240
+    28        340
+    29       2980
+    30        810
+    31       9999
+    33         30
+    41        130
+    42        470
+    43       1140
+    44         70
+    45       5140
+    46       2160
+    47         70
+##TITLE=Library Entry 94 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18883, Seq# R572
+##NAMES=YYYY 2008
+##CAS NAME=Ethanol
+##MOLFORM=C2H6O
+##CAS REGISTRY NO=000064-17-5
+##MP= -300
+##BP= -300
+##MW= 46.042
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 28
+##XYDATA=(XY..XY)
+    12         20
+    13         80
+    14        230
+    15        470
+    16         30
+    17         20
+    18         30
+    19        330
+    22         10
+    24         20
+    25        100
+    26        520
+    27       1810
+    28        450
+    29       1530
+    30        530
+    31       9999
+    32        120
+    33         20
+    39         10
+    40         20
+    41        110
+    42        350
+    43       1070
+    44         90
+    45       4930
+    46       2260
+    47        110
+##TITLE=Library Entry 95 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 228295, Seq# R573
+##NAMES=YYYY 2008
+##CAS NAME=Ethanol
+##MOLFORM=C2H6O
+##CAS REGISTRY NO=000064-17-5
+##MP= -300
+##BP= -300
+##MW= 46.042
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 27
+##XYDATA=(XY..XY)
+     2         10
+    12         10
+    13         40
+    14        130
+    15        330
+    16         10
+    17         10
+    18         40
+    19        220
+    24         10
+    25         80
+    26        480
+    27       1760
+    28        410
+    29       1190
+    30        490
+    31       9999
+    32        130
+    33         20
+    40         20
+    41         90
+    42        330
+    43        980
+    44         90
+    45       5720
+    46       2450
+    47         80
+##TITLE=Library Entry 96 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 78, Seq# M15399
+##NAMES=YYYY 2008
+##CAS NAME=Dimethyl ether
+##MOLFORM=C2H6O
+##CAS REGISTRY NO=000115-10-6
+##MP= -300
+##BP= -300
+##MW= 46.042
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 21
+##XYDATA=(XY..XY)
+    12         20
+    13         70
+    14        220
+    15       2410
+    16        110
+    17         50
+    18         30
+    19         10
+    27         20
+    28        100
+    29       3870
+    30        110
+    31        340
+    32         10
+    41         10
+    42         30
+    43        140
+    44         60
+    45       9999
+    46       6070
+    47        130
+##TITLE=Library Entry 97 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18887, Seq# R3516
+##NAMES=YYYY 2008
+##CAS NAME=Dimethyl ether
+##MOLFORM=C2H6O
+##CAS REGISTRY NO=000115-10-6
+##MP= -300
+##BP= -300
+##MW= 46.042
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 29
+##XYDATA=(XY..XY)
+    12        240
+    13        540
+    14       1250
+    15       5730
+    16        240
+    17        110
+    18         20
+    19         10
+    22         10
+    24         10
+    25         10
+    26         10
+    27         40
+    28        300
+    29       7880
+    30        360
+    31        700
+    32         10
+    33         10
+    39         10
+    40         10
+    41         20
+    42         60
+    43        170
+    44         80
+    45       9999
+    46       4560
+    47        120
+    48         10
+##TITLE=Library Entry 98 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 81, Seq# M494
+##NAMES=YYYY 2008
+##CAS NAME=Formic acid
+##MOLFORM=CH2O2
+##CAS REGISTRY NO=000064-18-6
+##MP= -300
+##BP= -300
+##MW= 46.005
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 16
+##XYDATA=(XY..XY)
+    12        330
+    13        290
+    14         40
+    16        520
+    17       1710
+    19         20
+    28       1720
+    29       9999
+    30        170
+    31         60
+    32         20
+    44       1000
+    45       4760
+    46       6090
+    47        100
+    48         30
+##TITLE=Library Entry 99 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18889, Seq# R3816
+##NAMES=YYYY 2008
+##CAS NAME=Formic acid
+##MOLFORM=CH2O2
+##CAS REGISTRY NO=000064-18-6
+##MP= -300
+##BP= -300
+##MW= 46.005
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 29
+##XYDATA=(XY..XY)
+    12         90
+    13         70
+    14         20
+    15         40
+    16        220
+    17       1030
+    18       4470
+    19         70
+    20         10
+    26         20
+    27        130
+    28       1730
+    29       9430
+    30        300
+    31         60
+    32         40
+    36         30
+    37         10
+    38         20
+    39        110
+    40         20
+    41        310
+    42         70
+    43        210
+    44       1610
+    45       8110
+    46       9999
+    47        270
+    48         50
+##TITLE=Library Entry 100 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 233843, Seq# R3824
+##NAMES=YYYY 2008
+##CAS NAME=Formic acid
+##MOLFORM=CH2O2
+##CAS REGISTRY NO=000064-18-6
+##MP= -300
+##BP= -300
+##MW= 46.005
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 16
+##XYDATA=(XY..XY)
+    12         20
+    13         20
+    16         90
+    17        240
+    18        790
+    19         70
+    28       1290
+    29       5810
+    30         90
+    31         10
+    32         10
+    44       1450
+    45       6630
+    46       9999
+    47        590
+    48         50
+##TITLE=Library Entry 101 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 161137, Seq# M16191
+##NAMES=YYYY 2008
+##CAS NAME=Hydrazine, methyl-
+##MOLFORM=CH6N2
+##CAS REGISTRY NO=000060-34-4
+##MP= -300
+##BP= -300
+##MW= 46.053
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 18
+##XYDATA=(XY..XY)
+    27        630
+    28       7260
+    29       2150
+    30       1880
+    31       6320
+    35          5
+    36         40
+    38         10
+    39         20
+    40         80
+    41         90
+    42        420
+    43        770
+    44        460
+    45       7090
+    46       9999
+    47        260
+    48          5
+##TITLE=Library Entry 102 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 39814, Seq# R73
+##NAMES=YYYY 2008
+##CAS NAME=Hydrazine, methyl-
+##MOLFORM=CH6N2
+##CAS REGISTRY NO=000060-34-4
+##MP= -300
+##BP= -300
+##MW= 46.053
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 10
+##XYDATA=(XY..XY)
+    27       2290
+    28       9999
+    29       3290
+    30       2580
+    31       6290
+    42        850
+    43       1430
+    44        340
+    45       4380
+    46       6510
+##TITLE=Library Entry 103 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 230402, Seq# R74
+##NAMES=YYYY 2008
+##CAS NAME=Hydrazine, methyl-
+##MOLFORM=CH6N2
+##CAS REGISTRY NO=000060-34-4
+##MP= -300
+##BP= -300
+##MW= 46.053
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 24
+##XYDATA=(XY..XY)
+    12         70
+    13        270
+    14        740
+    15       3870
+    16       2740
+    17       1150
+    18       1950
+    21         10
+    22         40
+    26         50
+    27        570
+    28       9999
+    29       3040
+    30       1640
+    31       3280
+    32         50
+    40         10
+    41        270
+    42       1110
+    43       1820
+    44       3510
+    45       4230
+    46       6590
+    47         90
+##TITLE=Library Entry 104 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 39813, Seq# R3823
+##NAMES=YYYY 2008
+##CAS NAME=Hydrazine, methyl-
+##MOLFORM=CH6N2
+##CAS REGISTRY NO=000060-34-4
+##MP= -300
+##BP= -300
+##MW= 46.053
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 10
+##XYDATA=(XY..XY)
+    27       1370
+    28       5750
+    29       1780
+    30       1780
+    31       4110
+    42        750
+    43       1370
+    44        520
+    45       6090
+    46       9999
+##TITLE=Library Entry 105 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 80, Seq# M14054
+##NAMES=YYYY 2008
+##CAS NAME=Silane, methyl-
+##MOLFORM=CH6Si
+##CAS REGISTRY NO=000992-94-9
+##MP= -300
+##BP= -300
+##MW= 46.024
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 19
+##XYDATA=(XY..XY)
+     2         80
+    12         80
+    13        110
+    14        210
+    15        370
+    28       2790
+    29       2590
+    31       1500
+    32        140
+    33         40
+    40        280
+    41       1510
+    42       2170
+    43       4680
+    44       9999
+    45       7740
+    46        790
+    47        240
+    48          5
+##TITLE=Library Entry 106 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 82, Seq# M969
+##NAMES=YYYY 2008
+##CAS NAME=Nitrogen dioxide
+##MOLFORM=NO2
+##CAS REGISTRY NO=010102-44-0
+##MP= -300
+##BP= -300
+##MW= 45.993
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 5
+##XYDATA=(XY..XY)
+    14        960
+    16       2230
+    30       9999
+    46       3700
+    47         10
+##TITLE=Library Entry 107 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 230263, Seq# M16299
+##NAMES=YYYY 2008
+##CAS NAME=Hydroxylamine, O-methyl-
+##MOLFORM=CH5NO
+##CAS REGISTRY NO=000067-62-9
+##MP= -300
+##BP= -300
+##MW= 47.037
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 19
+##XYDATA=(XY..XY)
+    14         30
+    15        650
+    16        150
+    17       1290
+    18        360
+    27         10
+    28        510
+    29       1760
+    30        900
+    31       1000
+    32       4230
+    33         30
+    43         20
+    44        530
+    45         20
+    46        700
+    47       9999
+    48        190
+    49         10
+##TITLE=Library Entry 108 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 192499, Seq# R3846
+##NAMES=YYYY 2008
+##CAS NAME=Hydroxylamine, O-methyl-
+##MOLFORM=CH5NO
+##CAS REGISTRY NO=000067-62-9
+##MP= -300
+##BP= -300
+##MW= 47.037
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 15
+##XYDATA=(XY..XY)
+    27         50
+    29       4100
+    30       1340
+    31       1370
+    32       4810
+    33         40
+    41         50
+    42          5
+    43         40
+    44        710
+    45         20
+    46        670
+    47       9999
+    48        120
+    49         20
+##TITLE=Library Entry 109 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18890, Seq# M16300
+##NAMES=YYYY 2008
+##CAS NAME=Ethane, fluoro-
+##MOLFORM=C2H5F
+##CAS REGISTRY NO=000353-36-6
+##MP= -300
+##BP= -300
+##MW= 48.038
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 19
+##XYDATA=(XY..XY)
+    14         60
+    15         60
+    19         10
+    25        130
+    26        480
+    27       1770
+    28        680
+    29        220
+    31        130
+    32        190
+    33       2690
+    34         50
+    43         10
+    44        430
+    45        700
+    46       1020
+    47       9999
+    48       1150
+    49         30
+##TITLE=Library Entry 110 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 83, Seq# R3840
+##NAMES=YYYY 2008
+##CAS NAME=Ethane, fluoro-
+##MOLFORM=C2H5F
+##CAS REGISTRY NO=000353-36-6
+##MP= -300
+##BP= -300
+##MW= 48.038
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 33
+##XYDATA=(XY..XY)
+     2        100
+    12         90
+    13        190
+    14        320
+    15        300
+    16         10
+    17         10
+    19         20
+    20         20
+    24         40
+    25        380
+    26       1240
+    27       3730
+    28        600
+    29        570
+    30         10
+    31        210
+    32        130
+    33       3450
+    34         40
+    37         10
+    38         10
+    39         10
+    40         10
+    41         20
+    42         10
+    43         70
+    44        300
+    45        740
+    46       1030
+    47       9999
+    48       1000
+    49         20
+##TITLE=Library Entry 111 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 86, Seq# M16308
+##NAMES=YYYY 2008
+##CAS NAME=Methanethiol
+##MOLFORM=CH4S
+##CAS REGISTRY NO=000074-93-1
+##MP= -300
+##BP= -300
+##MW= 48.003
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 15
+##XYDATA=(XY..XY)
+    12        120
+    13        210
+    14        380
+    15        960
+    32        390
+    33        510
+    34        110
+    35         30
+    44        740
+    45       4740
+    46       1150
+    47       9999
+    48       8990
+    49        610
+    50        410
+##TITLE=Library Entry 112 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18893, Seq# R3852
+##NAMES=YYYY 2008
+##CAS NAME=Methanethiol
+##MOLFORM=CH4S
+##CAS REGISTRY NO=000074-93-1
+##MP= -300
+##BP= -300
+##MW= 48.003
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 16
+##XYDATA=(XY..XY)
+    12        260
+    13        430
+    14        670
+    15         10
+    32       1160
+    33       1210
+    34        240
+    35         60
+    36         10
+    44       1260
+    45       6140
+    46       1470
+    47       9999
+    48       7580
+    49        560
+    50        330
+##TITLE=Library Entry 113 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 84, Seq# M16235
+##NAMES=YYYY 2008
+##CAS NAME=Phosphine, methyl-
+##MOLFORM=CH5P
+##CAS REGISTRY NO=000593-54-4
+##MP= -300
+##BP= -300
+##MW= 48.013
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 9
+##XYDATA=(XY..XY)
+    15        200
+    31        130
+    32        660
+    33        130
+    44       3130
+    45       5860
+    46       9999
+    47       1660
+    48       8660
+##TITLE=Library Entry 114 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18891, Seq# R3827
+##NAMES=YYYY 2008
+##CAS NAME=Phosphine, methyl-
+##MOLFORM=CH5P
+##CAS REGISTRY NO=000593-54-4
+##MP= -300
+##BP= -300
+##MW= 48.013
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 10
+##XYDATA=(XY..XY)
+    31         60
+    32        660
+    33        460
+    34        200
+    44       3460
+    45       5330
+    46       9999
+    47       1800
+    48       9060
+    49        260
+##TITLE=Library Entry 115 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 87, Seq# M16381
+##NAMES=YYYY 2008
+##CAS NAME=1,3-Butadiyne
+##MOLFORM=C4H2
+##CAS REGISTRY NO=000460-12-8
+##MP= -300
+##BP= -300
+##MW= 50.016
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 13
+##XYDATA=(XY..XY)
+    12        380
+    13        240
+    24        260
+    25        950
+    26         60
+    36        290
+    37        540
+    38        100
+    48        840
+    49       3600
+    50       9999
+    51        420
+    52         20
+##TITLE=Library Entry 116 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 34470, Seq# R3901
+##NAMES=YYYY 2008
+##CAS NAME=1,3-Butadiyne
+##MOLFORM=C4H2
+##CAS REGISTRY NO=000460-12-8
+##MP= -300
+##BP= -300
+##MW= 50.016
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 13
+##XYDATA=(XY..XY)
+    13        150
+    14         10
+    24        300
+    25        870
+    26         30
+    36        400
+    37        600
+    38         50
+    48       1020
+    49       4280
+    50       9999
+    51        440
+    52          5
+##TITLE=Library Entry 117 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 18894, Seq# M16373
+##NAMES=YYYY 2008
+##CAS NAME=Methane, chloro-
+##MOLFORM=CH3Cl
+##CAS REGISTRY NO=000074-87-3
+##MP= -300
+##BP= -300
+##MW= 49.992
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 14
+##XYDATA=(XY..XY)
+    12        330
+    13        540
+    14        840
+    15       7230
+    16        100
+    35        620
+    36        160
+    37        190
+    47        710
+    48        340
+    49       1140
+    50       9999
+    51        380
+    52       3100
+##TITLE=Library Entry 118 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 88, Seq# R3906
+##NAMES=YYYY 2008
+##CAS NAME=Methane, chloro-
+##MOLFORM=CH3Cl
+##CAS REGISTRY NO=000074-87-3
+##MP= -300
+##BP= -300
+##MW= 49.992
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 16
+##XYDATA=(XY..XY)
+    12         40
+    13         90
+    14        150
+    15       2110
+    16         30
+    35        150
+    36         70
+    37         60
+    38         20
+    47        620
+    48        300
+    49        910
+    50       9999
+    51        350
+    52       3260
+    53         40
+##TITLE=Library Entry 119 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 118857, Seq# M16429
+##NAMES=YYYY 2008
+##CAS NAME=Propiolonitrile
+##MOLFORM=C3HN
+##CAS REGISTRY NO=001070-71-9
+##MP= -300
+##BP= -300
+##MW= 51.011
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 23
+##XYDATA=(XY..XY)
+    12        410
+    13         80
+    14         60
+    16          5
+    17          5
+    18          5
+    24        650
+    25        790
+    26        340
+    27         60
+    28         10
+    32          5
+    36        340
+    37        310
+    38        660
+    39         80
+    40          5
+    46          5
+    47          5
+    50       2640
+    51       9999
+    52        340
+    53          5
+##TITLE=Library Entry 120 in d:\XXXXXX.l
+##JCAMPDX=Revision 4.10
+##DATA TYPE=MASS SPECTRUM
+##SAMPLE DESCRIPTION=YYYY MS# 273361, Seq# M16541
+##NAMES=YYYY 2008
+##CAS NAME=Ethanedinitrile
+##MOLFORM=C2N2
+##CAS REGISTRY NO=000460-19-5
+##MP= -300
+##BP= -300
+##MW= 52.006
+##$RETENTION INDEX=0
+##$CONDENSED SPECTRUM=NO
+##NPOINTS= 3
+##XYDATA=(XY..XY)
+    26        470
+    52       9999
+    53        310
