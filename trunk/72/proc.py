@@ -6,7 +6,8 @@ import time
 sys.path.append("/x/proj.archive/proj/PyMS/")
 
 from pyms.libMS.JCAMP.Class import MSLib
-from pyms.libMS.JCAMP.Function import ms_lib_match 
+from pyms.libMS.JCAMP.Class import MatchedObj
+from pyms.libMS.JCAMP.IO import ms_lib_match
 from pyms.IO.ANDI.Class import ChemStation
 
 ms_lib_file = "/x/proj.archive/proj/PyMS/data/mslib.jcamp"
@@ -21,7 +22,6 @@ data = ChemStation(andi_file)
 
 # prime the library for matching against 'data'
 mass_list = data.get_mass_list()
-ms_lib.prime_records(mass_list)
 
 #
 # scans matching
@@ -35,6 +35,9 @@ matches = []
 for ii in range(N):
     print "Working on scan", ii
     s = data.get_scan_at_index(ii)
-    best_match = ms_lib_match(s, ms_lib)
-    matches.append(best_match)
-
+    result = ms_lib_match(ms_lib, mass_list, s)
+    matched_obj = MatchedObj(result)
+    print matched_obj.compound
+    print matched_obj.score
+    print matched_obj.mass_spec
+    matches.append(matched_obj)
