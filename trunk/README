@@ -73,6 +73,5 @@ Peak alignment examples
 MS libraries
 -------------
 
-71/ -- Reading mass spectral library in JCAMP format
-
+71/ -- Demonstrates reading of the mass spectral library in JCAMP format
 
