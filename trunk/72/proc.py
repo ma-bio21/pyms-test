@@ -20,9 +20,6 @@ print "Loading end at:", time.localtime()
 # load the GC-MS data
 data = ChemStation(andi_file)
 
-# get the m/z list for 'data'
-mass_list = data.get_mass_list()
-
 # search the library for the scan 536
 
 # get the scan 536
