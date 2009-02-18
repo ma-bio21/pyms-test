@@ -7,7 +7,7 @@ sys.path.append("/x/proj.archive/proj/PyMS/")
 
 from pyms.libMS.JCAMP.Class import MSLib
 from pyms.libMS.JCAMP.Class import MatchedObj
-from pyms.libMS.JCAMP.IO import ms_lib_match
+from pyms.libMS.Function import ms_lib_match
 from pyms.IO.ANDI.Class import ChemStation
 
 ms_lib_file = "/x/proj.archive/proj/PyMS/data/mslib.jcamp"
@@ -26,10 +26,10 @@ mass_list = data.get_mass_list()
 # search the library for the scan 536
 
 # get the scan 536
-s = data.get_scan_at_index(536)
+ms = data.get_ms_at_index(536)
 
 # match against the library
-result = ms_lib_match(ms_lib, mass_list, s)
+result = ms_lib_match(ms_lib, ms)
 matched_obj = MatchedObj(result)
 
 # print results
