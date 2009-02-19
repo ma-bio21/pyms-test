@@ -3,7 +3,7 @@
 import sys
 import time
 
-sys.path.append("/home/qiaow/Desktop/pyms-read-only")
+sys.path.append("/x/proj.archive/proj/PyMS/")
 
 from pyms.libMS.JCAMP.Class import MSLib
 from pyms.libMS.JCAMP.Class import MatchedObj
@@ -11,8 +11,8 @@ from pyms.libMS.JCAMP.Class import MassSpectrum
 from pyms.libMS.Function import ms_lib_match
 from pyms.IO.ANDI.Class import ChemStation
 
-ms_lib_file = "/home/qiaow/PyMS/pyms-data/NIST08.JCAMP"
-andi_file = "/home/qiaow/PyMS/pyms-data/a0806_140.CDF"
+ms_lib_file = "/x/proj.archive/proj/PyMS/data/mslib.jcamp"
+andi_file = "/x/proj.archive/proj/PyMS/data/a0806_140.CDF"
 
 # load the GC-MS data
 data = ChemStation(andi_file)
