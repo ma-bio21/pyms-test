@@ -46,11 +46,6 @@ Peak detection
 
 30/ -- 'Minmax' peak detector for TIC
 
-Mass-spectral libraries
------------------------
-
-41/ -- Reading of the mass spectral library in JCAMP format
-
 Simulator
 ---------
 
@@ -72,8 +67,10 @@ Peak alignment examples
     programming. The experiments prepared in examples 04/ and 04a/ are
     aligned
 
-MS libraries
--------------
+Mass spec libraries
+-------------------
 
-71/ -- Demonstrates reading of the mass spectral library in JCAMP format
+71/ -- Shows reading of the mass spectral library in JCAMP format
+
+72/ -- Demonstrates finding the best match to a single ms scan
 
