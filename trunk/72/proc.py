@@ -5,11 +5,10 @@ import time
 
 sys.path.append("/x/proj.archive/proj/PyMS/")
 
-from pyms.libMS.JCAMP.Class import MSLib
-from pyms.libMS.JCAMP.Class import MatchedObj
-from pyms.libMS.JCAMP.Class import MassSpectrum
+from pyms.libMS.Class import MSLib
 from pyms.libMS.Function import ms_lib_match
 from pyms.IO.ANDI.Class import ChemStation
+from pyms.IO.Class import MassSpectrum
 
 ms_lib_file = "/x/proj.archive/proj/PyMS/data/mslib.jcamp"
 andi_file = "/x/proj.archive/proj/PyMS/data/a0806_140.CDF"
@@ -18,19 +17,19 @@ andi_file = "/x/proj.archive/proj/PyMS/data/a0806_140.CDF"
 data = ChemStation(andi_file)
 
 print "Loading start at:", time.localtime()
-ms_lib = MSLib(ms_lib_file)
+ms_lib = MSLib(ms_lib_file, format="JCAMP")
 print "Loading end at:", time.localtime()
 
-# search the library for the scan 536
+# search the library for the best hit to the scan 536
 
-# get the scan 536
+# get the mass spectrum at scan 536
 ms = MassSpectrum(data, 536)
 
 # match against the library
-result = ms_lib_match(ms_lib, ms)
-matched_obj = MatchedObj(result)
+best_match = ms_lib_match(ms_lib, ms)
 
 # print results
-print "Best hit is:", matched_obj.compound
-print "Best hit score:", matched_obj.score
-print "Best hit mass spectrum:", matched_obj.mass_spec
+print "Best hit is:", best_match.id
+print "Best hit score:", best_match.score
+print "Best hit mass spectrum:", best_match.mass_record
+
