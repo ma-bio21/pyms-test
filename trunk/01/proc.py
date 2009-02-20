@@ -6,6 +6,7 @@ sys.path.append("/x/archive/proj/PyMS/")
 
 from pyms.IO.ANDI.Class import ChemStation
 from pyms.Utils.IO import save_data
+from pyms.IO.Function import export_csv, export_leco_csv
 
 # read the raw data
 andi_file = "/x/archive/proj/PyMS/data/a0806_140.CDF"
@@ -42,5 +43,9 @@ save_data("output/im.dat", im)
 # data.im.csv, data.mz.csv, and data.rt.csv where
 # these are the intensity matrix, retention time
 # vector, and m/z vector in the CSV format
-data.export_csv("output/data")
+export_csv(data, "output/data")
+
+# Export the entire data set as LECO CSV. This is
+# useful for import into AnalyzerPro
+export_leco_csv(data, "output/data_leco.csv")
 
