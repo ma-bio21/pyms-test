@@ -71,7 +71,7 @@ Peak alignment by dynamic programming
 Metric for the comparison of two peak lists
 -------------------------------------------
 
-68/ -- Compares Xcalibur peak list with AMDIS peak list
+68/ -- Compares an Xcalibur peak list with the AMDIS peak list
 
 Mass spec libraries
 -------------------

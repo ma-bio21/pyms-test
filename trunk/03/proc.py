@@ -2,7 +2,7 @@
 """
 
 import sys
-sys.path.append("/x/proj.archive/proj/PyMS/")
+sys.path.append("/x/archive/proj/PyMS/")
 
 from pyms.IO.ANDI.Class import ChemStation
 from pyms.Experiment.Class import Experiment
@@ -10,8 +10,8 @@ from pyms.Peak.List.IO import read_chem_station_peaks
 from pyms.Experiment.IO import dump_expr
 
 # path to ANDI-MS data and annotated ChemStation peak files
-andi_file = "/x/proj.archive/proj/PyMS/data/a0806_140.CDF"
-peak_file = "/x/proj.archive/proj/PyMS/data/a0806_140.txt.a"
+andi_file = "/x/archive/proj/PyMS/data/a0806_140.CDF"
+peak_file = "/x/archive/proj/PyMS/data/a0806_140.txt.a"
 
 # read the ANDI-MS data file and Chemstation peak report
 data = ChemStation(andi_file)

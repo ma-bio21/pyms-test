@@ -2,7 +2,7 @@
 """
 
 import sys
-sys.path.append("/x/proj.archive/proj/PyMS/")
+sys.path.append("/x/archive/proj/PyMS/")
 
 from pyms.Isotope.MFRA.Function import fract_labelling, corr_unlabelled, \
     overall_correction_matrix, correction_matrix, c_mass_isotope_distr, \

@@ -2,7 +2,7 @@
 """
 
 import sys
-sys.path.append("/x/proj.archive/proj/PyMS/")
+sys.path.append("/x/archive/proj/PyMS/")
 
 from pyms.Experiment.IO import read_expr_list
 from pyms.Peak.List.DPA.Function import exprl2alignment

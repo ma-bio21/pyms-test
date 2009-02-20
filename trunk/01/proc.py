@@ -2,13 +2,13 @@
 """
 
 import sys
-sys.path.append("/x/proj.archive/proj/PyMS/")
+sys.path.append("/x/archive/proj/PyMS/")
 
 from pyms.IO.ANDI.Class import ChemStation
 from pyms.Utils.IO import save_data
 
 # read the raw data
-andi_file = "/x/proj.archive/proj/PyMS/data/a0806_140.CDF"
+andi_file = "/x/archive/proj/PyMS/data/a0806_140.CDF"
 data = ChemStation(andi_file)
 
 # print the name of the ANDI-MS file

@@ -2,13 +2,13 @@
 """
 
 import sys
-sys.path.append("/x/proj.archive/proj/PyMS/")
+sys.path.append("/x/archive/proj/PyMS/")
 
 from pyms.IO.ANDI.Class import Xcalibur
 from pyms.Utils.IO import save_data
 
 # read the raw data
-andi_file = "/x/proj.archive/proj/PyMS/data/121107B_10.CDF"
+andi_file = "/x/archive/proj/PyMS/data/121107B_10.CDF"
 data = Xcalibur(andi_file)
 
 # print the name of the ANDI-MS file

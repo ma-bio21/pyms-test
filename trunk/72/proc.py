@@ -3,15 +3,15 @@
 import sys
 import time
 
-sys.path.append("/x/proj.archive/proj/PyMS/")
+sys.path.append("/x/archive/proj/PyMS/")
 
 from pyms.libMS.Class import MSLib
 from pyms.libMS.Function import ms_lib_match
 from pyms.IO.ANDI.Class import ChemStation
 from pyms.IO.Class import MassSpectrum
 
-ms_lib_file = "/x/proj.archive/proj/PyMS/data/mslib.jcamp"
-andi_file = "/x/proj.archive/proj/PyMS/data/a0806_140.CDF"
+ms_lib_file = "/x/archive/proj/PyMS/data/mslib.jcamp"
+andi_file = "/x/archive/proj/PyMS/data/a0806_140.CDF"
 
 # load the GC-MS data
 data = ChemStation(andi_file)

@@ -2,7 +2,7 @@
 """
 
 import sys
-sys.path.append("/x/proj.archive/proj/PyMS/")
+sys.path.append("/x/archive/proj/PyMS/")
 
 from pyms.Utils.IO import save_data
 from pyms.Simulator.Class import GCMS_simulator
