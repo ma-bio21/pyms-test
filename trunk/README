@@ -7,8 +7,8 @@ Contains examples of PyMS use discussed in the PyMS User Guide
 
 CONTENT
 
-Basics
-------
+Data I/O and miscallaneous
+--------------------------
 
 01/ -- Example demonstrating reading of GC-MS data from ChemStation (Agilent
     Technologies) ANDI-MS files, shows how to obtain ion chromatogram and TIC,
@@ -32,14 +32,14 @@ Basics
 Data pre processing
 -------------------
 
-11/ -- Noise filtering with mean/median moving windows 
+11/ -- Noise filtering with the mean/median moving window filter
 
-12/ -- Noise filtering with Savitzky-Golay filter
+12/ -- Noise filtering with the Savitzky-Golay filter
 
 Beseline correction
 -------------------
 
-21/ -- Top hat baseline correction
+21/ -- Top-hat baseline correction
 
 Peak detection
 --------------
@@ -51,8 +51,8 @@ Simulator
 
 51/ -- GC-MS data simulator
 
-Peak alignment examples
------------------------
+Peak alignment by dynamic programming 
+-------------------------------------
 
 61/ -- Preparation of experiments for peak alignment by dynamic programming
 
@@ -70,7 +70,7 @@ Peak alignment examples
 Mass spec libraries
 -------------------
 
-71/ -- Shows reading of the mass spectral library in JCAMP format
+71/ -- Reading of the mass spectral library in JCAMP format
 
-72/ -- Demonstrates finding the best match to a single ms scan
+72/ -- Searching the mass spec library for the best match
 
