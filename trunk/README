@@ -67,6 +67,12 @@ Peak alignment by dynamic programming
     programming. The experiments prepared in examples 04/ and 04a/ are
     aligned
 
+
+Metric for the comparison of two peak lists
+-------------------------------------------
+
+68/ -- Compares Xcalibur peak list with AMDIS peak list
+
 Mass spec libraries
 -------------------
 
