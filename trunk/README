@@ -61,10 +61,10 @@ Peak alignment by dynamic programming
     and 04a/) are aligned together
 
 62/ -- Example of within-state peak alignment by dynamic programming. The
-    experiments prepared in the example 04 are aligned
+    experiments prepared in the example 61 are aligned
 
 63/ -- Example of within-state and between-state peak alignment by dynamic
-    programming. The experiments prepared in examples 04/ and 04a/ are
+    programming. The experiments prepared in examples 61/ and 61a/ are
     aligned
 
 
