@@ -36,7 +36,7 @@ im = data.get_intensity_matrix()
 
 print "Dimensions of the intensity matrix are:",len(im),"x",len(im[0])
 
-# save the intensity matrix  to a file
+# save the entire intensity matrix to a file
 save_data("output/im.dat", im)
 
 # Export the entire data as CSV. This will create
@@ -44,6 +44,9 @@ save_data("output/im.dat", im)
 # these are the intensity matrix, retention time
 # vector, and m/z vector in the CSV format
 export_csv(data, "output/data")
+
+# trim the data to between 6 minutes and 9.7 minutes
+data.trim_time_domain("6m", "9.7m")
 
 # Export the entire data set as LECO CSV. This is
 # useful for import into AnalyzerPro
