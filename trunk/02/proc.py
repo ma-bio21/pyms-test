@@ -7,8 +7,9 @@ sys.path.append("/x/PyMS")
 from pyms.GCMS.IO.JCAMP.Function import JCAMP_reader
 from pyms.GCMS.Function import build_intensity_matrix, build_intensity_matrix_i
 from pyms.GCMS.IO.Function import export_csv, export_leco_csv
+from pyms.Utils.IO import save_data
 
-# read the raw data and return GCMS_data object
+# read the raw data as a GCMS_data object
 jcamp_file = "/x/PyMS/data/gc01_0812_066.jdx"
 data = JCAMP_reader(jcamp_file)
 
@@ -61,9 +62,12 @@ print "end mass:", max(masses)
 index = im.get_index_of_mass(73.3)
 print "the index of the nearest mass to 73.3m/z is:", index
 print "the nearest mass to 73.3m/z is:", masses[index]
+print
+
+# TIC and SIC
 
 # TIC from raw data
-tic = gcms_data.get_tic()
+tic = data.get_tic()
 # save TIC to a file
 tic.write("output/tic.dat",minutes=True)
 
@@ -77,13 +81,23 @@ ic.write("output/ic_mass_73.dat",minutes=True)
 # some tests on ion chromatogram objects
 print "'tic' is a TIC:", tic.is_tic()
 print "'ic' is a TIC:", ic.is_tic()
+print
 
-# Export the entire data as CSV. This will create
+# Data saving
+
+# save the intensity matrix values to a file
+mat = im.get_matrix_list()
+print "saving intensity matrix intensity values..."
+save_data("output/im.dat", mat)
+
+# Export the entire IntensityMatrix as CSV. This will create
 # data.im.csv, data.mz.csv, and data.rt.csv where
 # these are the intensity matrix, retention time
 # vector, and m/z vector in the CSV format
-export_csv(data, "output/data")
+print "exporting intensity matrix data..."
+export_csv("output/data", im)
 
-# Export the entire data set as LECO CSV. This is
+# Export the entire IntensityMatrix as LECO CSV. This is
 # useful for import into AnalyzerPro
-export_leco_csv(data, "output/data_leco.csv")
+print "exporting intensity matrix data to LECO CSV format..."
+export_leco_csv("output/data_leco.csv", im)
