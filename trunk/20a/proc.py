@@ -10,6 +10,9 @@ from pyms.GCMS.IO.JCAMP.Function import JCAMP_reader
 jcamp_file = "/x/PyMS/data/gc01_0812_066.jdx"
 data = JCAMP_reader(jcamp_file)
 
+# print a summary information about the data
+data.info()
+
 # raw data operations
 print "minimum mass found in all data: ", data.get_min_mass()
 print "maximum mass found in all data: ", data.get_max_mass()
