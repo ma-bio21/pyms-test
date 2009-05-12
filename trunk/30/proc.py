@@ -22,14 +22,12 @@ im = build_intensity_matrix(data)
 
 print "size of intensity matrix (#scans, #bins):", im.get_size()
 
-masses = im.get_mass_list()
-
-print "start mass:", min(masses)
-print "end mass:", max(masses)
+print "start mass:", im.get_min_mass()
+print "end mass:", im.get_max_mass()
 
 index = im.get_index_of_mass(73.3)
 print "the index of the nearest mass to 73.3m/z is:", index
-print "the nearest mass to 73.3m/z is:", masses[index]
+print "the nearest mass to 73.3m/z is:", im.get_mass_at_index(index)
 print
 
 # bin size of 0.5, eg. for double charge ions
@@ -38,14 +36,12 @@ im = build_intensity_matrix(data, 0.5)
 
 print "size of intensity matrix (#scans, #bins):", im.get_size()
 
-masses = im.get_mass_list()
-
-print "start mass:", min(masses)
-print "end mass:", max(masses)
+print "start mass:", im.get_min_mass()
+print "end mass:", im.get_max_mass()
 
 index = im.get_index_of_mass(73.3)
 print "the index of the nearest mass to 73.3m/z is:", index
-print "the nearest mass to 73.3m/z is:", masses[index]
+print "the nearest mass to 73.3m/z is:", im.get_mass_at_index(index)
 print
 
 # integer intensity matrix, integer masses, in one unit steps
@@ -54,15 +50,17 @@ im = build_intensity_matrix_i(data)
 
 print "size of intensity matrix (#scans, #bins):", im.get_size()
 
-masses = im.get_mass_list()
-
-print "start mass:", min(masses)
-print "end mass:", max(masses)
+print "start mass:", im.get_min_mass()
+print "end mass:", im.get_max_mass()
 
 index = im.get_index_of_mass(73.3)
 print "the index of the nearest mass to 73.3m/z is:", index
-print "the nearest mass to 73.3m/z is:", masses[index]
+print "the nearest mass to 73.3m/z is:", im.get_mass_at_index(index)
 print
+
+
+masses = im.get_mass_list()
+
 
 # TIC and SIC
 
