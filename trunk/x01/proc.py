@@ -4,7 +4,8 @@
 import sys
 sys.path.append("/x/PyMS")
 
-from pyms.GCMS.IO.ANDI.Function import ANDI_reader
+#from pyms.GCMS.IO.ANDI.Function import ANDI_reader
+from pyms.GCMS.IO.JCAMP.Function import JCAMP_reader
 from pyms.GCMS.Function import build_intensity_matrix, build_intensity_matrix_i
 from pyms.GCMS.IO.Function import export_csv, export_leco_csv
 from pyms.Utils.IO import save_data
@@ -13,9 +14,10 @@ from pyms.Deconvolution.BillerBiemann.Functions import get_maxima_indices, \
     get_maxima_list, get_maxima_matrix, BillerBiemann
 
 # read the raw data as a GCMS_data object
-#jcamp_file = "/x/PyMS/data/gc01_0812_066.jdx"
-andi_file = "/x/PyMS/data/gc01_0812_073.cdf"
-data = ANDI_reader(andi_file)
+jcamp_file = "/x/PyMS/data/gc01_0812_066.jdx"
+data = JCAMP_reader(jcamp_file)
+#andi_file = "/x/PyMS/data/gc01_0812_073.cdf"
+#data = ANDI_reader(andi_file)
 
 # IntensityMatrix
 # must build intensity matrix before accessing any intensity matrix methods.
