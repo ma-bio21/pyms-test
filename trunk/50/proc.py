@@ -19,9 +19,9 @@ tic = data.get_tic()
 tic1 = window_smooth(tic, window=5)
 tic2 = window_smooth(tic, window=5, median=True)
 
-# nn example of how to specify window as a time string
-# (3 seconds in this case)
-tic9 = window_smooth(tic, window='3s')
+# an example of how to specify window as a time string
+# (7 seconds in this case)
+tic3 = window_smooth(tic, window='7s')
 
 # write mean and median smoothed TIC to a file
 tic.write("output/tic.dat",minutes=True)
