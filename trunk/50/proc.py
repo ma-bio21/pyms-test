@@ -6,6 +6,7 @@ sys.path.append("/x/PyMS/")
 
 from pyms.GCMS.IO.ANDI.Function import ANDI_reader
 from pyms.Noise.Window import window_smooth
+from pyms.GCMS.Function import build_intensity_matrix_i
 
 # read the raw data
 andi_file = "/x/PyMS/data/gc01_0812_066.cdf"
@@ -23,7 +24,7 @@ tic2 = window_smooth(tic, window=5, median=True)
 # (7 seconds in this case)
 tic3 = window_smooth(tic, window='7s')
 
-# write mean and median smoothed TIC to a file
+# write the origina IC and smoothed ICs to a file
 tic.write("output/tic.dat",minutes=True)
 tic1.write("output/tic1.dat",minutes=True)
 tic2.write("output/tic2.dat",minutes=True)
