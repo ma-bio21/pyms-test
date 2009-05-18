@@ -31,3 +31,12 @@ Chapter 4
 
 40/ -- Demonstrates a Peak object and its properties.
 
+
+Chapter 6  - Data pre-processing
+--------------------------------
+
+60/ -- Noise filtering with the mean/median moving window filter
+
+61/ -- Noise filtering with the Savitzky-Golay filter
+
+
