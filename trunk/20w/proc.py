@@ -14,7 +14,7 @@ data = ANDI_reader(andi_file)
 data.info()
 
 # write data to output file. This will create
-# two ascii data tables, data.I and data.mz
+# two ascii data tables, data.I.csv and data.mz.csv
 # with intensities and m/z values
 data.write("output/data")
 
