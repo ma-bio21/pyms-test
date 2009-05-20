@@ -6,7 +6,6 @@ sys.path.append("/x/PyMS/")
 
 from pyms.GCMS.IO.ANDI.Function import ANDI_reader
 from pyms.Noise.Window import window_smooth
-from pyms.GCMS.Function import build_intensity_matrix_i
 
 # read the raw data
 andi_file = "/x/PyMS/data/gc01_0812_066.cdf"
