@@ -4,13 +4,13 @@
 import sys
 sys.path.append("/x/PyMS")
 
-from pyms.GCMS.IO.JCAMP.Function import JCAMP_reader
+from pyms.GCMS.IO.ANDI.Function import ANDI_reader
 from pyms.GCMS.Function import build_intensity_matrix_i
 from pyms.Noise.Window import window_smooth
 
 # read the raw data as a GCMS_data object
-jcamp_file = "/x/PyMS/data/gc01_0812_066.jdx"
-data = JCAMP_reader(jcamp_file)
+andi_file = "/x/PyMS/data/gc01_0812_066.cdf"
+data = ANDI_reader(andi_file)
 
 # build the intensity matrix
 im = build_intensity_matrix_i(data)
