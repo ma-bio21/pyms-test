@@ -6,7 +6,6 @@ sys.path.append("/x/PyMS")
 
 from pyms.GCMS.IO.JCAMP.Function import JCAMP_reader
 from pyms.GCMS.Function import build_intensity_matrix, build_intensity_matrix_i
-from pyms.GCMS.IO.Function import export_csv, export_leco_csv
 from pyms.Utils.IO import save_data
 
 # read the raw data as a GCMS_data object
@@ -91,9 +90,9 @@ save_data("output/im.dat", mat)
 # these are the intensity matrix, retention time
 # vector, and m/z vector in the CSV format
 print "exporting intensity matrix data..."
-export_csv("output/data", im)
+im.export_csv("output/data")
 
 # Export the entire IntensityMatrix as LECO CSV. This is
 # useful for import into AnalyzerPro
 print "exporting intensity matrix data to LECO CSV format..."
-export_leco_csv("output/data_leco.csv", im)
+im.export_leco_csv("output/data_leco.csv")
