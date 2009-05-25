@@ -16,9 +16,11 @@ data = ANDI_reader(andi_file)
 tic = data.get_tic()
 
 # apply noise smoothing and baseline correction
-tic = savitzky_golay(tic)
-tic_bc = tophat(tic, struct="1.5m")
+tic1 = savitzky_golay(tic)
+tic2 = tophat(tic1, struct="1.5m")
 
 # save smoothed/baseline corrected TIC
-tic.write("output/tic_bc.dat",minutes=True)
+tic.write("output/tic.dat",minutes=True)
+tic1.write("output/tic_smooth.dat",minutes=True)
+tic2.write("output/tic_smooth_bc.dat",minutes=True)
 
