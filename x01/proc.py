@@ -14,6 +14,9 @@ from pyms.Deconvolution.BillerBiemann.Functions import get_maxima_indices, \
     get_maxima_list, get_maxima_matrix, sum_maxima, BillerBiemann, \
     rel_threshold, num_ions_threshold
 
+from pyms.Noise.SavitzkyGolay import savitzky_golay
+from pyms.Baseline.TopHat import tophat
+
 # read the raw data as a GCMS_data object
 jcamp_file = "/x/PyMS/data/gc01_0812_066.jdx"
 data = JCAMP_reader(jcamp_file)
@@ -24,6 +27,19 @@ data = JCAMP_reader(jcamp_file)
 # default, float masses with interval (bin size) of one from min mass
 print "default intensity matrix, bin size = 1"
 im = build_intensity_matrix(data)
+
+# get the size of the intensity matrix
+n_scan, n_mz = im.get_size()
+print " Size of the intensity matrix is (n_scans, n_mz):", n_scan, n_mz
+
+# smooth data
+for ii in range(n_mz):
+    print "Working on IC#", ii+1
+    ic = im.get_ic_at_index(ii)
+    ic1 = savitzky_golay(ic)
+    ic_smooth = savitzky_golay(ic1)
+    ic_base = tophat(ic_smooth, struct="1.5m")
+    im.set_ic_at_index(ii, ic_base)
 
 # thresholds
 # filter width, maxima in 'points' is apex
