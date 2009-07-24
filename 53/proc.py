@@ -21,7 +21,7 @@ print "building intensity matrix with bin interval=1"
 im = build_intensity_matrix(data)
 
 # save the pre-processed intensity matrix
-print " Dumping the pre-processed intensity matrix"
+print " Dumping the original intensity matrix"
 dump_object(im, "output/im-orig.dump")
 
 # get the size of the intensity matrix
