@@ -37,9 +37,13 @@ Chapter 4
 Chapter 5  - Data pre-processing
 --------------------------------
 
-51a/ -- Noise filtering with the mean/median moving window filter
+51a/ -- Noise filtering with the mean/median moving window filter, on TIC
 
-51b/ -- Noise filtering with the Savitzky-Golay filter
+51b/ -- Noise filtering with the Savitzky-Golay filter, on TIC
 
-52/ -- TopHat baseline correction
+52/ -- TopHat baseline correction, on TIC
+
+53/ -- A pre-processing of data by ICs (building of the intensity matrix,
+    smoothing each IC with the Savitzky-Golay filter and baseline correction
+    with the TopHat corrector)
 
