@@ -38,7 +38,10 @@ for ii in range(n_mz):
     ic_bc = tophat(ic_smooth, struct="1.5m")
     im.set_ic_at_index(ii, ic_bc)
 
+# get the size of the intensity matrix
+n_scan, n_mz = im.get_size()
+print " Size of the intensity matrix is (n_scans, n_mz):", n_scan, n_mz
+
 # save the pre-processed intensity matrix
 print " Dumping the pre-processed intensity matrix"
 dump_object(im, "output/im-proc.dump")
-
