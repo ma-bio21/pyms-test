@@ -15,8 +15,8 @@ data = JCAMP_reader(jcamp_file)
 # IntensityMatrix
 # must build intensity matrix before accessing any intensity matrix methods.
 
-# default, float masses with interval (bin size) of one from min mass
-print "default intensity matrix, bin size = 1"
+# default, float masses with interval (bin interval) of one from min mass
+print "default intensity matrix, bin interval = 1, boundary +/- 0.5"
 im = build_intensity_matrix(data)
 
 print "size of intensity matrix (#scans, #bins):", im.get_size()
@@ -29,9 +29,9 @@ print "the index of the nearest mass to 73.3m/z is:", index
 print "the nearest mass to 73.3m/z is:", im.get_mass_at_index(index)
 print
 
-# bin size of 0.5, eg. for double charge ions
-print "intensity matrix, bin size = 0.5"
-im = build_intensity_matrix(data, 0.5)
+# bin interval of 0.5, eg. for double charge ions
+print "intensity matrix, bin interval = 0.5, boundary +/- 0.25"
+im = build_intensity_matrix(data, 0.5, 0.25, 0.25)
 
 print "size of intensity matrix (#scans, #bins):", im.get_size()
 
@@ -44,7 +44,8 @@ print "the nearest mass to 73.3m/z is:", im.get_mass_at_index(index)
 print
 
 # integer intensity matrix, integer masses, in one unit steps
-print "intensity matrix with integer mass and bin size = 1"
+print "intensity matrix with integer mass and bin interval = 1, "\
+    "default boundary -0.3, +0.7"
 im = build_intensity_matrix_i(data)
 
 print "size of intensity matrix (#scans, #bins):", im.get_size()
@@ -90,7 +91,7 @@ save_data("output/im.dat", mat)
 # these are the intensity matrix, retention time
 # vector, and m/z vector in the CSV format
 print "exporting intensity matrix data..."
-im.export_csv("output/data")
+im.export_ascii("output/data")
 
 # Export the entire IntensityMatrix as LECO CSV. This is
 # useful for import into AnalyzerPro
