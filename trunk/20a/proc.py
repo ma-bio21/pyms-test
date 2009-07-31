@@ -5,96 +5,32 @@ import sys
 sys.path.append("/x/PyMS")
 
 from pyms.GCMS.IO.JCAMP.Function import JCAMP_reader
-from pyms.GCMS.Function import build_intensity_matrix, build_intensity_matrix_i
-from pyms.GCMS.IO.Function import export_csv, export_leco_csv
-from pyms.Utils.IO import save_data
 
-# read the raw data as a GCMS_data object
+# read the raw data
 jcamp_file = "/x/PyMS/data/gc01_0812_066.jdx"
 data = JCAMP_reader(jcamp_file)
 
-# IntensityMatrix
-# must build intensity matrix before accessing any intensity matrix methods.
+# raw data operations
+print "minimum mass found in all data: ", data.get_min_mass()
+print "maximum mass found in all data: ", data.get_max_mass()
 
-# default, float masses with interval (bin size) of one from min mass
-print "default intensity matrix, bin size = 1"
-im = build_intensity_matrix(data)
+# time
+time = data.get_time_list()
+print "number of retention times: ", len(time)
+print "retention time of 1st scan: ", time[0], "sec"
+print "index of 400sec in time_list: ", data.get_index_at_time(400.0)
 
-print "size of intensity matrix (#scans, #bins):", im.get_size()
-
-print "start mass:", im.get_min_mass()
-print "end mass:", im.get_max_mass()
-
-index = im.get_index_of_mass(73.3)
-print "the index of the nearest mass to 73.3m/z is:", index
-print "the nearest mass to 73.3m/z is:", im.get_mass_at_index(index)
-print
-
-# bin size of 0.5, eg. for double charge ions
-print "intensity matrix, bin size = 0.5"
-im = build_intensity_matrix(data, 0.5)
-
-print "size of intensity matrix (#scans, #bins):", im.get_size()
-
-print "start mass:", im.get_min_mass()
-print "end mass:", im.get_max_mass()
-
-index = im.get_index_of_mass(73.3)
-print "the index of the nearest mass to 73.3m/z is:", index
-print "the nearest mass to 73.3m/z is:", im.get_mass_at_index(index)
-print
-
-# integer intensity matrix, integer masses, in one unit steps
-print "intensity matrix with integer mass and bin size = 1"
-im = build_intensity_matrix_i(data)
-
-print "size of intensity matrix (#scans, #bins):", im.get_size()
-
-print "start mass:", im.get_min_mass()
-print "end mass:", im.get_max_mass()
-
-index = im.get_index_of_mass(73.3)
-print "the index of the nearest mass to 73.3m/z is:", index
-print "the nearest mass to 73.3m/z is:", im.get_mass_at_index(index)
-print
-
-masses = im.get_mass_list()
-
-# TIC and SIC
-
-# TIC from raw data
+# TIC
 tic = data.get_tic()
-# save TIC to a file
-tic.write("output/tic.dat",minutes=True)
+print "number of scans in TIC: ", len(tic)
+print "start time of TIC: ", tic.get_time_at_index(0), "sec"
 
-# get the first ion chromatogram of the IntensityMatrix
-ic = im.get_ic_at_index(0)
-ic.write("output/ic_index_1.dat",minutes=True)
-# get the ion chromatogram for m/z = 73
-ic = im.get_ic_at_mass(73)
-ic.write("output/ic_mass_73.dat",minutes=True)
+# raw scans
+scans = data.get_scan_list()
 
-# some tests on ion chromatogram objects
-print "'tic' is a TIC:", tic.is_tic()
-print "'ic' is a TIC:", ic.is_tic()
-print
+print "number of masses in 1st scan: ", len(scans[0])
+print "1st mass value for 1st scan: ", scans[0].get_mass_list()[0]
+print "1st intensity value for 1st scan: ", scans[0].get_intensity_list()[0]
 
-# Data saving
-
-# save the intensity matrix values to a file
-mat = im.get_matrix_list()
-print "saving intensity matrix intensity values..."
-save_data("output/im.dat", mat)
-
-# Export the entire IntensityMatrix as CSV. This will create
-# data.im.csv, data.mz.csv, and data.rt.csv where
-# these are the intensity matrix, retention time
-# vector, and m/z vector in the CSV format
-print "exporting intensity matrix data..."
-export_csv("output/data", im)
-
-# Export the entire IntensityMatrix as LECO CSV. This is
-# useful for import into AnalyzerPro
-print "exporting intensity matrix data to LECO CSV format..."
-export_leco_csv("output/data_leco.csv", im)
-
+print "minimum mass found in 1st scan: ", scans[0].get_min_mass()
+print "maximum mass found in 1st scan: ", scans[0].get_max_mass()
