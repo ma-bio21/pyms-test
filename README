@@ -31,7 +31,11 @@ Chapter 3 -- GC-MS data structure
     and how to save intensity matrix to a file.
 
 Chapter 4 -- Data filtering
---------------------------------
+---------
+
+40a/ -- Trim raw data retention time/scan range
+
+40b/ -- Crop mass range and ignore given masses
 
 41a/ -- Noise filtering with the mean/median moving window filter, on TIC
 
@@ -43,7 +47,7 @@ Chapter 4 -- Data filtering
     smoothing each IC with the Savitzky-Golay filter and baseline correction
     with the TopHat corrector)
 
-Chapter 5 -- Peaks, Peak finding and Experiments
+Chapter 5 -- Peaks and Peak detection
 ---------
 
 50/ -- Demonstrates a Peak object and its properties.

@@ -8,7 +8,7 @@ from pyms.GCMS.IO.JCAMP.Function import JCAMP_reader
 from pyms.GCMS.Function import build_intensity_matrix, build_intensity_matrix_i
 from pyms.Utils.IO import save_data
 from pyms.Peak.Class import Peak
-from pyms.Deconvolution.BillerBiemann.Functions import get_maxima_indices, \
+from pyms.Deconvolution.BillerBiemann.Function import get_maxima_indices, \
     get_maxima_list, get_maxima_matrix, sum_maxima, BillerBiemann, \
     rel_threshold, num_ions_threshold
 
