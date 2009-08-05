@@ -20,13 +20,7 @@ data = JCAMP_reader(jcamp_file)
 print "building intensity matrix with bin interval=1"
 im = build_intensity_matrix(data)
 
-# save the pre-processed intensity matrix
-print " Dumping the original intensity matrix"
-dump_object(im, "output/im-orig.dump")
-
-# get the size of the intensity matrix
 n_scan, n_mz = im.get_size()
-print " Size of the intensity matrix is (n_scans, n_mz):", n_scan, n_mz
 
 # process data
 print " Processing ICs"
@@ -37,10 +31,6 @@ for ii in range(n_mz):
     ic_smooth = savitzky_golay(ic)
     ic_bc = tophat(ic_smooth, struct="1.5m")
     im.set_ic_at_index(ii, ic_bc)
-
-# get the size of the intensity matrix
-n_scan, n_mz = im.get_size()
-print " Size of the intensity matrix is (n_scans, n_mz):", n_scan, n_mz
 
 # save the pre-processed intensity matrix
 print " Dumping the pre-processed intensity matrix"
