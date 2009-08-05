@@ -10,7 +10,7 @@ from pyms.Noise.SavitzkyGolay import savitzky_golay
 from pyms.Baseline.TopHat import tophat
 from pyms.Peak.Class import Peak
 from pyms.Peak.IO import store_peaks
-from pyms.Deconvolution.BillerBiemann.Functions import BillerBiemann, \
+from pyms.Deconvolution.BillerBiemann.Function import BillerBiemann, \
     rel_threshold, num_ions_threshold
 from pyms.Utils.IO import save_data
 
