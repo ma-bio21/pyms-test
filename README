@@ -26,9 +26,17 @@ Chapter 2 -- GC-MS data file reading and operations
 Chapter 3 -- GC-MS data structure
 ---------
 
-30/ -- Demonstrates building of the intensity matrix from
-    raw GC-MS data, methods of the intensity matrix object,
-    and how to save intensity matrix to a file.
+30a/ -- Demonstrates building of the intensity matrix from
+    raw GC-MS data, and some basic methods of the IntensityMatrix
+
+30b/ -- Build intensity matrix parameters.
+
+30c/ -- Build integer mass intensity matrix using bin boundary of
+    -0.3 and +0.7.
+
+31/ -- MassSpectrum and IonChromatogram objects of an IntensityMatrix
+
+31/ -- Saving IonChromatogram and IntensityMatrix information.
 
 Chapter 4 -- Data filtering
 ---------
