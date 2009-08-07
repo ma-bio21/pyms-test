@@ -36,7 +36,7 @@ Chapter 3 -- GC-MS data structure
 
 31/ -- MassSpectrum and IonChromatogram objects of an IntensityMatrix
 
-31/ -- Saving IonChromatogram and IntensityMatrix information.
+32/ -- Saving IonChromatogram and IntensityMatrix information.
 
 Chapter 4 -- Data filtering
 ---------
