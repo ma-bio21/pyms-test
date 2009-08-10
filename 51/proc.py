@@ -31,3 +31,16 @@ peak.null_mass(147)
 
 # New UID after modification
 print peak.get_UID()
+
+# Create another peak from an isomer of the first peak (at RT 31.44 minutes)
+scan_i = im.get_index_at_time(31.44*60.0)
+ms = im.get_ms_at_index(scan_i)
+
+peak2 = Peak(31.44, ms, minutes=True)
+# modify the range and null TMS ions
+peak2.crop_mass(60, 450)
+peak2.null_mass(73)
+peak2.null_mass(147)
+
+# Compare isomers UID
+print peak2.get_UID()
