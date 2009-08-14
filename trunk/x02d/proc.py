@@ -8,14 +8,6 @@ from pyms.Experiment.IO import load_expr
 from pyms.Peak.List.DPA.Class import PairwiseAlignment
 from pyms.Peak.List.DPA.Function import align_with_tree, exprl2alignment
 
-
-# If psyco is installed, use it to speed up running time
-try:
-    import psyco
-    psyco.full()
-except:
-    pass
-
 # define the input experiments list
 expr_dir = "../x02c/output/"
 exprA_codes = [ "a0806_077", "a0806_078", "a0806_079" ]
@@ -36,6 +28,8 @@ F1 = exprl2alignment(expr_list)
 T1 = PairwiseAlignment(F1, Dw, Gw)
 A1 = align_with_tree(T1, min_peaks=2)
 
+A1.write_csv('output/Art.csv', 'output/Aarea.csv')
+
 print 'Aligning expt B'
 expr_list = []
 for expr_code in exprB_codes:
@@ -49,6 +43,8 @@ A2 = align_with_tree(T2, min_peaks=2)
 # between replicates alignment parameters
 Db = 10.0 # rt modulation
 Gb = 0.30 # gap penalty
+
+A2.write_csv('output/Brt.csv', 'output/Barea.csv')
 
 print 'Aligning input {1,2}'
 T9 = PairwiseAlignment([A1,A2], Db, Gb)
