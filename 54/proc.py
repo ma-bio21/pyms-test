@@ -50,7 +50,18 @@ new_peak_list = num_ions_threshold(pl, n, t)
 print "Number of filtered peaks: ", len(new_peak_list)
 
 # find and set areas
+print "Peak areas"
+print "UID, RT, height, area"
 for peak in new_peak_list:
     rt = peak.get_rt()
-    area = peak_sum_area(im, peak)
-    peak.set_area(area)
+    # Only test interesting sub-set from 29.5 to 32.5 minutes
+    if rt >= 29.5*60.0 and rt <= 32.5*60.0:
+        # determine and set area
+        area = peak_sum_area(im, peak)
+        peak.set_area(area)
+
+        # print some details
+        UID = peak.get_UID()
+        # height as sum of the intensities of the apexing ions
+        height = sum(peak.get_mass_spectrum().mass_spec)
+        print UID + ", %.2f, %.2f, %.2f" % (rt/60.0, height, peak.get_area())
