@@ -9,6 +9,8 @@ from pyms.GCMS.Function import build_intensity_matrix_i
 from pyms.Noise.SavitzkyGolay import savitzky_golay
 from pyms.Baseline.TopHat import tophat
 from pyms.Peak.Class import Peak
+from pyms.Peak.Function import peak_sum_area
+
 from pyms.Deconvolution.BillerBiemann.Function import BillerBiemann, \
     rel_threshold, num_ions_threshold
 
@@ -66,6 +68,9 @@ for expr_code in expr_codes:
         peak.crop_mass(50,540)
         peak.null_mass(73)
         peak.null_mass(147)
+        # find area
+        area = peak_sum_area(im, peak)
+        peak.set_area(area)
 
     # create an experiment
     expr = Experiment(expr_code, peak_list)
