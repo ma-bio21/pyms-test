@@ -26,7 +26,7 @@ expr_codes = [ "a0806_077", "a0806_078", "a0806_079" ]
 
 
 # deconvolution and peak list filtering parameters
-points = 9; scans = 2; n = 3; t = 2000; r = 2;
+points = 9; scans = 2; n = 3; t = 3000; r = 2;
 
 # loop over all experiments
 for expr_code in expr_codes:
@@ -34,7 +34,7 @@ for expr_code in expr_codes:
     print "Processing", expr_code
 
     # define the names of the peak file and the corresponding ANDI-MS file
-    andi_file = os.path.join(base_path, expr_code + ".CDF")
+    andi_file = os.path.join(base_path, expr_code + ".cdf")
 
     data = ANDI_reader(andi_file)
 

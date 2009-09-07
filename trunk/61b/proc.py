@@ -33,7 +33,7 @@ for expr_code in expr_codes:
     print "Processing", expr_code
 
     # define the names of the peak file and the corresponding ANDI-MS file
-    andi_file = os.path.join(base_path, expr_code + ".CDF")
+    andi_file = os.path.join(base_path, expr_code + ".cdf")
 
     data = ANDI_reader(andi_file)
 
