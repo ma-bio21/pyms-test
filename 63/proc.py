@@ -7,6 +7,7 @@ sys.path.append("/x/PyMS/")
 from pyms.Experiment.IO import load_expr
 from pyms.Peak.List.DPA.Class import PairwiseAlignment
 from pyms.Peak.List.DPA.Function import align_with_tree, exprl2alignment
+from pyms.Peak.IO import store_peaks
 
 # define the input experiments list
 exprA_codes = [ "a0806_077", "a0806_078", "a0806_079" ]
@@ -52,3 +53,6 @@ T9 = PairwiseAlignment([A1,A2], Db, Gb)
 A9 = align_with_tree(T9)
 
 A9.write_csv('output/rt.csv', 'output/area.csv')
+
+aligned_peaks = A9.aligned_peaks()
+store_peaks(aligned_peaks, 'output/peaks.bin')
