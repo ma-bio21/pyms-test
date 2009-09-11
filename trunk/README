@@ -59,3 +59,24 @@ Chapter 5 -- Peaks and Peak detection
 ---------
 
 50/ -- Demonstrates a Peak object and its properties.
+
+51/ -- Crop mass range and zero mass intensities.
+
+52/ -- Peak detection and deconvolution.
+
+53/ -- Filter list of detected peaks.
+
+54/ -- Peak area.
+
+Chapter 6 -- Peak alignment by dynamic programming.
+---------
+
+60/ -- Experiment object.
+
+61a/ -- Experiment setup for group A peak data.
+
+61b/ -- Experiment setup for group B peak data.
+
+62/ -- Alignment of group A peaks.
+
+63/ -- Alignment of peaks within group A, group B and between groups A and B.
