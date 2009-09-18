@@ -2,7 +2,7 @@
 """
 
 import sys
-sys.path.append("/x/PyMS")
+sys.path.append("/x/PyMS/")
 
 from pyms.GCMS.IO.JCAMP.Function import JCAMP_reader
 from pyms.GCMS.Function import build_intensity_matrix
