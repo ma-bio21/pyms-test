@@ -6,6 +6,8 @@ import sys
 # sys.path.append("/x/PyMS/")
 sys.path.append("/home/projects/PyMS")
 
+from pyms.GCMS.IO.ANDI.Function import ANDI_reader
+from pyms.GCMS.Function import build_intensity_matrix_i
 from pyms.Flux.Class import MIDS
 from pyms.Flux.MassExtraction.Function import extract_mid
 
@@ -37,6 +39,7 @@ noise = 4000 #todo: estimate from data files
 
 fp = open(in_file, 'r')
 lines = fp.readlines()
+mids_list = []
 
 for line in lines:
 
@@ -44,16 +47,33 @@ for line in lines:
     items =line.split(',')
     name = str(items[0])
     rt = float(items[1])*60 # convert to seconds
-    ion_list = [int(items[2])]
+    ion = int(items[2])
     mid_size = int(items[3])
 
     # set compound name, retention time, diagnostic ions and MID size
-    mids = MIDS(name, rt, ion_list, mid_size)
+    mids = MIDS(name, rt, ion, mid_size)
 
-    # process data files to extract MIDs
-    mids = extract_mid(data_file_root, data_file_nums, mids, win_size, noise)
-
-    # write MIDs to output file
-    mids.write(out_file)
+    # store mids in mids_list
+    mids_list.append(mids)
 
 fp.close()
+
+# loop over files
+
+for file_num in data_file_nums:
+
+    # load raw data
+    andi_file = data_file_root+str(file_num)+".CDF"
+    data = ANDI_reader(andi_file)
+
+    # create intensity matrix
+    im = build_intensity_matrix_i(data)
+
+    # process data file to extract MIDs
+    for mids in mids_list:
+        mids = extract_mid(str(file_num), im, mids, win_size, noise)
+
+# write extracted MIDs to output file
+print ' -> Writing to file ', out_file
+for mids in mids_list:       
+    mids.write(out_file)
