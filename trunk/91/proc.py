@@ -13,10 +13,10 @@ from pyms.Flux.MassExtraction.Function import extract_mid
 
 # -- input data ---
 
-# data_file_root = '/x/PyMS/data-0903/a0903_'
-data_file_root = '/home/projects/PyMS/data-0903/a0903_'
-# data_file_nums = (301,302,303)
-data_file_nums = (297, 298, 299, 301, 302, 303, 304, 306, 307, 308, 253, 255, 256, 257, 258, 260, 261, 262, 263, 265, 266, 267, 268, 270, 271, 272, 273)
+# data_file_root = '/x/PyMS/data/'
+data_file_root = '/home/projects/PyMS/data/0905/'
+# data_file_names_file = '/x/PyMS/pyms-test/91/input/file_names.txt'
+data_file_names_file = '/home/projects/PyMS/pyms-test/91/input/file_names.txt'
 
 # input file
 # in_file = '/x/PyMS/pyms-test/91/input/in.csv'
@@ -58,22 +58,32 @@ for line in lines:
 
 fp.close()
 
-# loop over files
+# read data file names
 
-for file_num in data_file_nums:
+fp = open(data_file_names_file, 'r')
+lines = fp.readlines()
+data_file_names = []
+
+for line in lines:
+    data_file_names.append(line.strip())
+
+# loop over file names
+
+for file_name in data_file_names:
 
     # load raw data
-    andi_file = data_file_root+str(file_num)+".CDF"
+    print '\n'
+    andi_file = data_file_root+file_name+".CDF"
     data = ANDI_reader(andi_file)
 
     # create intensity matrix
     im = build_intensity_matrix_i(data)
-
+    print 'built matrix'
     # process data file to extract MIDs
     for mids in mids_list:
-        mids = extract_mid(str(file_num), im, mids, win_size, noise)
+        mids = extract_mid(file_name, im, mids, win_size, noise)
 
 # write extracted MIDs to output file
-print ' -> Writing to file ', out_file
+print '\n',' -> Writing to file ', out_file
 for mids in mids_list:       
     mids.write(out_file)
