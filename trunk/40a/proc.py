@@ -12,13 +12,13 @@ andi_file = "/x/PyMS/data/gc01_0812_066.cdf"
 data = ANDI_reader(andi_file)
 
 # info about raw data
-print data.info()
+data.info()
 
 # trim data between scans 1000 and 2000
 data.trim(1000, 2000)
 
 # info about trimmed raw data
-print data.info()
+data.info()
 
 # reload
 data = ANDI_reader(andi_file)
@@ -27,4 +27,4 @@ data = ANDI_reader(andi_file)
 data.trim("6.5m", "21m")
 
 # info about trimmed raw data
-print data.info()
+data.info()
