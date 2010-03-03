@@ -1,5 +1,5 @@
 #################################################################
-#       Creates Peak list for use with simulation tool
+#       Creates Peak list for use with Display module
 #################################################################
  
 import sys
@@ -11,12 +11,12 @@ from pyms.GCMS.Function import build_intensity_matrix_i
 from pyms.Noise.SavitzkyGolay import savitzky_golay
 from pyms.Baseline.TopHat import tophat
 
-from pyms.Peak.IO import store_peaks, load_peaks
+from pyms.Peak.IO import store_peaks
  
 from pyms.Deconvolution.BillerBiemann.Function import BillerBiemann, \
     rel_threshold, num_ions_threshold
     
-from pyms.Peak.Function import peak_sum_area
+
 
  
  # read in raw data

@@ -46,12 +46,6 @@ im = build_intensity_matrix(data)
 tic = data.get_tic()
 # save TIC to a file
 
-
-
-# get the ion chromatogram for some m/z channels (73, 147)
-ic = im.get_ic_at_mass(73)
-
-
 # create an instance of Display class
 display = Display()
 #Call function to store a plot of the TIC
