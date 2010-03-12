@@ -23,7 +23,7 @@ from pyms.GCMS.IO.ANDI.Function import ANDI_reader
 from pyms.GCMS.Function import build_intensity_matrix
 
 
-from pyms.Display.Class import Display
+from pyms.Display.Function import plot_ics
 
 # read the raw data as a GCMS_data object
 andi_file = "/x/PyMS/data/gc01_0812_066.cdf"
@@ -46,10 +46,7 @@ im = build_intensity_matrix(data)
 tic = data.get_tic()
 # save TIC to a file
 
-# create an instance of Display class
-display = Display()
 #Call function to store a plot of the TIC
-display.plot_tic(tic, 'TIC')
-# show the plot, given title
-display.do_plotting('TIC for gc01_0812_066')
+plot_ics(tic, 'TIC', 'TIC for gc01_0812_066')
+
 
