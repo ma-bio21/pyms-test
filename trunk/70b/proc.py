@@ -22,7 +22,7 @@ sys.path.append("/x/PyMS")
 from pyms.GCMS.IO.ANDI.Function import ANDI_reader
 from pyms.GCMS.Function import build_intensity_matrix
 
-from pyms.Display.Class import Display
+from pyms.Display.Function import plot_ics
 
 # read the raw data as a GCMS_data object
 andi_file = "/x/PyMS/data/gc01_0812_066.cdf"
@@ -51,11 +51,8 @@ tic = data.get_tic()
 ic = im.get_ic_at_mass(73)
 ic1 = im.get_ic_at_mass(147)
 # create a list of ICs
-ics = [ic, ic1]
+ics = [tic, ic, ic1]
 
-# Create a new display object, this time plot two ICs and the TIC
-display = Display()
 
-display.plot_tic(tic, 'TIC')
-display.plot_ics(ics, ['73','147'])
-display.do_plotting('TIC and Ion Chromatogram for mz = 73 & 147')
+plot_ics(ics, ['TIC','73','147'], 'TIC and ICs for m/z = 73 & 147')
+
