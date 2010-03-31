@@ -80,3 +80,16 @@ Chapter 6 -- Peak alignment by dynamic programming.
 62/ -- Alignment of group A peaks.
 
 63/ -- Alignment of peaks within group A, group B and between groups A and B.
+
+
+Chapter 7 -- Plotting
+---------
+
+70a/ -- A simple plot of TIC
+
+70b/ -- A simple overlay plot of multiple ICs
+ 
+71/ -- A plot with Display() object. Example shows an overlay plot of TIC,
+    several ICs, and peaks detected by PyMS
+
+
