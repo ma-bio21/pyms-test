@@ -2,8 +2,7 @@
 """
 
 import sys
-# sys.path.append("/x/PyMS/")
-sys.path.append("/home/projects/PyMS/")
+sys.path.append("/x/PyMS/")
 
 from pyms.Flux.MassCorrection.Function import fract_labelling, corr_unlabelled, \
     overall_correction_matrix, correction_matrix, c_mass_isotope_distr, \
