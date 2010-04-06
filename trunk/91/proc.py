@@ -7,8 +7,8 @@ sys.path.append("/x/PyMS/")
 
 from pyms.GCMS.IO.ANDI.Function import ANDI_reader
 from pyms.GCMS.Function import build_intensity_matrix_i
-from pyms.MID.Function import parse_ion_defs, parse_data_defs
-from pyms.MID.MassExtraction.Function import extract_mid
+from pyms.MIDs.Function import parse_ion_defs, parse_data_defs
+from pyms.MIDs.MassExtraction.Function import extract_mid
 
 # -- input data ---
 data_file_root = '/x/PyMS/data/'
