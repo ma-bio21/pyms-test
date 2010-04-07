@@ -22,7 +22,10 @@ win_size = 4 # seconds, peak width is 1 to 1.5 win size
 noise = 4000 #relates to the threshold of signal after which peaks lose shape/width goes down
 # -- end input parameters ---
 
+# read in diagnostic ion info
 mids_list = parse_ion_defs(ion_defs)
+
+# read in data file names
 data_files = parse_data_defs(data_defs)
 
 # loop over file names and extract MIDs
@@ -39,7 +42,7 @@ for file_name in data_files:
 
     # process data file to extract MIDs
     for mids in mids_list:
-        mids = extract_mid(file_name, im, mids, win_size, noise)
+        extract_mid(mids, file_name, im, win_size, noise)
 
 # write extracted MIDs, including any warnings, to out_file
 print '\n',' -> Writing to file ', out_file
