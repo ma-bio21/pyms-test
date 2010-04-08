@@ -22,8 +22,7 @@ sys.path.append("/x/PyMS")
 from pyms.GCMS.IO.ANDI.Function import ANDI_reader
 from pyms.GCMS.Function import build_intensity_matrix
 
-
-from pyms.Display.Function import plot_ic
+from pyms.Display.Function import plot_ms
 
 # read the raw data as a GCMS_data object
 andi_file = "/x/PyMS/data/gc01_0812_066.cdf"
@@ -39,14 +38,13 @@ im = build_intensity_matrix(data)
 
 
 #
-# IonChromatogram
+# Mass Spectrum
 #
 
-# TIC from raw data
-tic = data.get_tic()
-# save TIC to a file
+# get the mass spectrum at index 1024
+ms = im.get_ms_at_index(1024)
 
-#Call function to store a plot of the TIC
-plot_ic(tic, line_label = 'TIC', plot_title = 'TIC for gc01_0812_066')
 
+
+plot_ms(ms, plot_title = 'Mass Spectrum at index 1024')
 
