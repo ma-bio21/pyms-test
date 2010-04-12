@@ -92,8 +92,10 @@ Chapter 7 -- Plotting
 71/ -- A plot with Display() object. Example shows an overlay plot of TIC,
     several ICs, and peaks detected by PyMS
 
+Chapter 8 -- 
+---------
 
-Chapter 8 -- Parallel processing with PyMS
+Chapter 9 -- Parallel processing with PyMS
 ---------
 
 x10/ -- An example of parallel processing of data. Shows how to loop
