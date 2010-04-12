@@ -23,7 +23,7 @@ noise = 4000 #relates to the threshold of signal after which peaks lose shape/wi
 # -- end input parameters ---
 
 # read in diagnostic ion info
-mids_list = parse_ion_defs(ion_defs)
+mid_table_list = parse_ion_defs(ion_defs)
 
 # read in data file names
 data_files = parse_data_defs(data_defs)
@@ -40,12 +40,12 @@ for file_name in data_files:
     im = build_intensity_matrix_i(data)
     print ' -> Intensity matrix built'
 
-    # process data file to extract MIDs
-    for mids in mids_list:
-        extract_mid(mids, file_name, im, win_size, noise)
+    # process data file to fill empty MID tables
+    for mid_table in mid_table_list:
+        extract_mid(mid_table, file_name, im, win_size, noise)
 
-# write extracted MIDs, including any warnings, to out_file
+# write filled MID tables, including any warnings, to out_file
 print '\n',' -> Writing to file ', out_file
-for mids in mids_list:       
-    mids.write(out_file)
+for mid_table in mid_table_list:       
+    mid_table.write(out_file)
 
