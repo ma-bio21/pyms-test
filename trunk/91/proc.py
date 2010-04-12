@@ -7,7 +7,7 @@ sys.path.append("/x/PyMS/")
 
 from pyms.GCMS.IO.ANDI.Function import ANDI_reader
 from pyms.GCMS.Function import build_intensity_matrix_i
-from pyms.MIDs.Function import parse_ion_defs, parse_data_defs
+from pyms.MIDs.Function import parse_ion_defs, parse_data_defs, write_mid_tables
 from pyms.MIDs.MassExtraction.Function import extract_mid
 
 # -- input data ---
@@ -18,8 +18,8 @@ out_file = 'output/out.csv'
 # -- end input data ---
 
 # -- input parameters ---
-win_size = 4 # seconds, peak width is 1 to 1.5 win size 
-noise = 4000 #relates to the threshold of signal after which peaks lose shape/width goes down
+time_win = 4 # seconds, peak width is 1 to 1.5 win size 
+int_tresh = 4000 #relates to the threshold of signal after which peaks lose shape/peak width goes down
 # -- end input parameters ---
 
 # read in diagnostic ion info
@@ -42,10 +42,8 @@ for file_name in data_files:
 
     # process data file to fill empty MID tables
     for mid_table in mid_table_list:
-        extract_mid(mid_table, file_name, im, win_size, noise)
+        extract_mid(mid_table, file_name, im, time_win, int_tresh)
 
 # write filled MID tables, including any warnings, to out_file
 print '\n',' -> Writing to file ', out_file
-for mid_table in mid_table_list:       
-    mid_table.write(out_file)
-
+write_mid_tables(mid_table_list, out_file)
