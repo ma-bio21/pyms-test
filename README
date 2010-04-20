@@ -92,8 +92,15 @@ Chapter 7 -- Plotting
 71/ -- A plot with Display() object. Example shows an overlay plot of TIC,
     several ICs, and peaks detected by PyMS
 
-Chapter 8 -- 
+
+Chapter 8 -- Labelled data related algorithms
 ---------
+
+91/ -- Mass Isotopomer Distribution Extraction in 13C Labelling Experiments
+
+
+92/ -- Natural Isotopic Abundance Correction in 13C Experiments
+
 
 Chapter 9 -- Parallel processing with PyMS
 ---------
