@@ -4,7 +4,7 @@
 import sys
 sys.path.append("/x/PyMS/")
 
-from pyms.Flux.MassCorrection.Function import fract_labelling, corr_unlabelled, \
+from pyms.MIDs.MassCorrection.Function import fract_labelling, corr_unlabelled, \
     overall_correction_matrix, correction_matrix, c_mass_isotope_distr, \
     mass_dist_vector
 
@@ -26,7 +26,7 @@ atoms = {
 f_unlabelled = 0.01
 # -- end of input data --
 
-# calculate n, this could work depending on the content of the  input file
+# calculate n, this can work depending on the content of the  input file
 n = len(mdv)-1
 
 # the overall correction matrix

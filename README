@@ -93,12 +93,12 @@ Chapter 7 -- Plotting
     several ICs, and peaks detected by PyMS
 
 
-Chapter 8 -- Labelled data related algorithms
+Chapter 8 -- Analysis of 13C Labelled Data
 ---------
 
-91/ -- Mass Isotopomer Distribution Extraction in 13C Labelling Experiments
+91/ -- Mass Isotopomer Distribution Extraction
 
-92/ -- Natural Isotopic Abundance Correction in 13C Experiments
+92/ -- Correction for Natural Isotopic Abundance
 
 
 Chapter 9 -- Parallel processing with PyMS
