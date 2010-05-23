@@ -4,64 +4,77 @@
 import sys
 sys.path.append("/x/PyMS")
 
+import sys, os, errno, string
+sys.path.append("/x/PyMS")
+
 from pyms.GCMS.IO.ANDI.Function import ANDI_reader
 from pyms.GCMS.Function import build_intensity_matrix_i
 from pyms.Noise.SavitzkyGolay import savitzky_golay
 from pyms.Baseline.TopHat import tophat
-
-from pyms.Deconvolution.BillerBiemann.Function import BillerBiemann, \
-    rel_threshold, num_ions_threshold
-
+from pyms.Peak.Class import Peak
 from pyms.Peak.Function import peak_sum_area
+from pyms.Deconvolution.BillerBiemann.Function \
+    import BillerBiemann, rel_threshold, num_ions_threshold
+from pyms.Noise.Analysis import window_analyzer
 
-# read the raw data as a GCMS_data object
-andi_file = "/x/PyMS/data/gc01_0812_066.cdf"
+# deconvolution and peak list filtering parameters
+# 'pk_points' is the estimated number of points across signal peak
+pk_points = 5
+pk_scans = 2
+n = 3
+r = 1
+
+#andi_file = "/x/PyMS/data/0605_549.CDF"
+andi_file = "/x/PyMS/data/a0806_077.cdf"
+
+# read raw data
 data = ANDI_reader(andi_file)
 
-im = build_intensity_matrix_i(data)
+# estimate noise level from the TIC, used later to 
+# discern true signal peaks
+tic = data.get_tic()
+noise_level = window_analyzer(tic)
 
+print " Building intensity matrix ...",
+# build integer intensity matrix
+im = build_intensity_matrix_i(data)
+print " done."
+
+# crop mass range to 50-540
+im.crop_mass(50,540)
+
+# ignore TMS ions 73 and 147
+im.null_mass(73)
+im.null_mass(147)
+
+# get the size of the intensity matrix
 n_scan, n_mz = im.get_size()
 
-print "Intensity matrix size (scans, masses):", (n_scan, n_mz)
+# loop over all IC: smoothing and baseline correction
+print " Smoothing and baseline correction ...",
 
-# noise filter and baseline correct
 for ii in range(n_mz):
     ic = im.get_ic_at_index(ii)
     ic_smooth = savitzky_golay(ic)
-    ic_bc = tophat(ic_smooth, struct="1.5m")
-    im.set_ic_at_index(ii, ic_bc)
+    ic_base = tophat(ic_smooth, struct="1.5m")
+    im.set_ic_at_index(ii, ic_base)
 
-# Use Biller and Biemann technique to find apexing ions at a scan.
-peak_list = BillerBiemann(im, points=9, scans=2)
+print " done."
 
-# percentage ratio of ion intensity to max ion intensity
-r = 2
-# minimum number of ions, n
-n = 3
-# greater than or equal to threshold, t
-t = 10000
+# peak detection
+
+print " Applying deconvolution ...",
+
+# get the initial list of peak objects
+pl = BillerBiemann(im, pk_points, pk_scans)
 
 # trim by relative intensity
-pl = rel_threshold(peak_list, r)
+apl = rel_threshold(pl, r)
 
-# trim by threshold
-new_peak_list = num_ions_threshold(pl, n, t)
+# trim by number of ions above threshold
+peak_list = num_ions_threshold(apl, n, noise_level)
 
-print "Number of filtered peaks: ", len(new_peak_list)
+print " done."
 
-# find and set areas
-print "Peak areas"
-print "UID, RT, height, area"
-for peak in new_peak_list:
-    rt = peak.get_rt()
-    # Only test interesting sub-set from 29.5 to 32.5 minutes
-    if rt >= 29.5*60.0 and rt <= 32.5*60.0:
-        # determine and set area
-        area = peak_sum_area(im, peak)
-        peak.set_area(area)
+print " [ Number of peaks found: %d ]" % ( len(peak_list) )
 
-        # print some details
-        UID = peak.get_UID()
-        # height as sum of the intensities of the apexing ions
-        height = sum(peak.get_mass_spectrum().mass_spec)
-        print UID + ", %.2f, %.2f, %.2f" % (rt/60.0, height, peak.get_area())
