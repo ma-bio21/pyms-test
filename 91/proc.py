@@ -43,6 +43,7 @@ for file_name in data_files:
     # process data file to fill empty MID tables
     for mid_table in mid_table_list:
         extract_mid(mid_table, file_name, im, time_win, int_tresh)
+        mid_table.set_values(mdv, file_name)
 
 # write filled MID tables, including any warnings, to out_file
 print '\n',' -> Writing to file ', out_file
