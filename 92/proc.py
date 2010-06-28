@@ -10,7 +10,7 @@ from pyms.MIDs.MassCorrection.Function import correct_mdv, fract_labelling, \
     c_mass_isotope_distr, mass_dist_vector
 
 # -- input data ---
-mid_tables_file = '/x/PyMS/pyms-test/91/output/out.csv'
+mid_tables_file = 'input/out.csv'
 ion_file = 'input/ion_composition'
 out_file = 'output/corrected-out.csv'
 # -- end input data ---
