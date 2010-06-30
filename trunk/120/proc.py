@@ -4,12 +4,9 @@
 import sys
 sys.path.append("/x/PyMS")
 
-from pyms.MSlib.Function import load_nist
-from pyms.MSlib.Function import write_ms_lib
-from pyms.MSlib.Function import load_ms_lib
-from pyms.MSlib.Function import read_ms_lib
+from pyms.MSlib.Function import load_nist, write_ms_lib, load_ms_lib, read_ms_lib
 
-nist_file = "/x/PyMS/data/nist08.jca"
+nist_file = "/x/PyMS/data/nist08_test.jca"
 output_file = "output/mslib_object"
 
 ms_lib = load_nist(nist_file)
