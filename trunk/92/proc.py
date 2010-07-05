@@ -31,9 +31,10 @@ for mid_table in mid_table_list:
 
     # correct mdv values 
     for file_name, mdv in table_values.iteritems():
-        mdv = correct_mdv(mdv, atoms, f_unlabelled)
+        mdv_fl = correct_mdv(mdv, atoms, f_unlabelled)
         # fill the MID table with mdv values
-        mid_table.set_values(mdv, file_name)
+        mid_table.set_values(mdv_fl[0], file_name)
+        mid_table.set_fl(mdv_fl[1], file_name)
 
 # write corrected MID tables to out_file
 print '\n',' -> Writing to file ', out_file
