@@ -20,10 +20,10 @@ f_unlabelled = 0.01 # correction factor for unlabelled biomass
 # -- end input parameters ---
 
 # parse input files
+print '\n',' -> Reading MID tables file', mid_tables_file
 mid_table_list = parse_mid_tables_file(mid_tables_file)
-print '\n',' -> Read MID tables file', mid_tables_file
+print '\n',' -> Reading ion composition file ', ion_file
 mid_table_list = parse_ion_file(ion_file, mid_table_list)
-print '\n',' -> Read ion composition file:', ion_file
 print '\n',' -> Processing...'
 
 # loop through MID tables and correct
