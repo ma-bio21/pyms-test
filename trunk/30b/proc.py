@@ -18,11 +18,12 @@ data = JCAMP_reader(jcamp_file)
 print "intensity matrix, bin interval = 0.5, boundary +/- 0.25"
 im = build_intensity_matrix(data, 0.5, 0.25, 0.25)
 
-print "size of intensity matrix (#scans, #bins):", im.get_size()
+print " -> size of intensity matrix (#scans, #bins):", im.get_size()
 
-print "start mass:", im.get_min_mass()
-print "end mass:", im.get_max_mass()
+print " -> start mass:", im.get_min_mass()
+print " -> end mass:", im.get_max_mass()
 
 index = im.get_index_of_mass(73.3)
-print "the index of the nearest mass to 73.3m/z is:", index
-print "the nearest mass to 73.3m/z is:", im.get_mass_at_index(index)
+print " -> the index of the nearest mass to 73.3m/z is:", index
+print " -> the nearest mass to 73.3m/z is:", im.get_mass_at_index(index)
+
