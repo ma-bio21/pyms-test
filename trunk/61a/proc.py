@@ -91,7 +91,7 @@ for expr_code in expr_codes:
     # store processed data as experiment object
     output_file = "output/" + expr_code + ".expr"
 
-    print "\t  -> Saving the result as '%s'" % ( output_file )
+    print "\t -> Saving the result as '%s'" % ( output_file )
 
     store_expr(output_file, expr)
 
