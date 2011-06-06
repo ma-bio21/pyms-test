@@ -24,14 +24,13 @@ base_path = "/x/PyMS/data/"
 # define experiments to process
 expr_codes = [ "a0806_077", "a0806_078", "a0806_079" ]
 
-
 # deconvolution and peak list filtering parameters
 points = 9; scans = 2; n = 3; t = 3000; r = 2;
 
 # loop over all experiments
 for expr_code in expr_codes:
 
-    print "Processing", expr_code
+    print " -> Processing experiment '%s'" % ( expr_code )
 
     # define the names of the peak file and the corresponding ANDI-MS file
     andi_file = os.path.join(base_path, expr_code + ".cdf")
@@ -62,14 +61,16 @@ for expr_code in expr_codes:
     # trim by threshold
     peak_list = num_ions_threshold(apl, n, t)
 
-    print "Number of Peaks found:", len(peak_list)
+    print "\t -> Number of Peaks found:", len(peak_list)
+
+    print "\t -> Executing peak post-procesing and quantification..."
 
     # ignore TMS ions and use same mass range for all experiments
     for peak in peak_list:
         peak.crop_mass(50,540)
         peak.null_mass(73)
         peak.null_mass(147)
-        # find area
+        # find peak areas
         area = peak_sum_area(im, peak)
         peak.set_area(area)
         area_dict = peak_top_ion_areas(im, peak)
@@ -78,7 +79,20 @@ for expr_code in expr_codes:
     # create an experiment
     expr = Experiment(expr_code, peak_list)
 
-    # use same time range for all experiments
-    expr.sele_rt_range(["6.5m", "21m"])
+    # use same retention time range for all experiments
+    lo_rt_limit = "6.5m"
+    hi_rt_limit = "21m"
 
-    store_expr("output/"+expr_code+".expr", expr)
+    print "\t -> Selecting retention time range between '%s' and '%s'" % \
+            (lo_rt_limit, hi_rt_limit)
+
+    expr.sele_rt_range([lo_rt_limit, hi_rt_limit])
+
+    # store processed data as experiment object
+    output_file = "output/" + expr_code + ".expr"
+
+    print "\t  -> Saving the result as '%s'" % ( output_file )
+
+    store_expr(output_file, expr)
+
+
