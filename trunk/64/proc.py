@@ -47,10 +47,8 @@ A2 = align_with_tree(T2, min_peaks=2)
 Db = 10.0 # rt modulation
 Gb = 0.30 # gap penalty
 
-
 top_ion_list = A2.common_ion()
 A2.write_common_ion_csv('output/area1.csv', top_ion_list)
-
 
 print 'Aligning input {1,2}'
 T9 = PairwiseAlignment([A1,A2], Db, Gb)
@@ -58,3 +56,4 @@ A9 = align_with_tree(T9)
 
 top_ion_list = A9.common_ion()
 A9.write_common_ion_csv('output/area.csv', top_ion_list)
+

@@ -88,8 +88,10 @@ Chapter 6 -- Peak alignment by dynamic programming.
 
 63/ -- Alignment of peaks within group A, group B and between groups A and B.
 
+64/ -- Peak alignment with the "common ion" filtering.
 
-Chapter 7 -- Plotting
+
+Chapter 7 -- Plotting.
 ---------
 
 70a/ -- A simple plot of TIC
@@ -100,7 +102,7 @@ Chapter 7 -- Plotting
     several ICs, and peaks detected by PyMS
 
 
-Chapter 9 -- Parallel processing with PyMS
+Chapter 9 -- Parallel processing with PyMS.
 ---------
 
 x10/ -- An example of parallel processing of data. Shows how to loop
