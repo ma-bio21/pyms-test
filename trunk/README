@@ -54,7 +54,7 @@ Chapter 4 -- Data filtering
 
 41b/ -- Noise filtering with the Savitzky-Golay filter, on TIC
 
-42/ -- TopHat baseline correction, on TIC
+42a/, 42b/ -- TopHat baseline correction
 
 43/ -- A pre-processing of data by ICs (building of the intensity matrix,
     smoothing each IC with the Savitzky-Golay filter and baseline correction
